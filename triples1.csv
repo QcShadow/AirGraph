@@ -1,0 +1,16 @@
+entity1,relationship,entity2
+Boeing 787-8,Was Involved In,Serious Incident
+Ethiopian Airlines,Operated,Boeing 787-8
+Hong Kong International Airport,Was Destination Of,Flight ETH 645
+Flight ETH 645,Deviated From,Intended Flightpath
+Autoflight System,Failed To,Capture Localizer Course
+Localizer Course,Was Part Of,Instrument Landing System (ILS)
+ILS,Was Located At,Hong Kong International Airport
+Air Traffic Control (ATC),Instructed,Go Around
+Flight Crew,Identified,Deviation From Localizer Course
+Pilot Flying (PF),Disengaged,Autoflight System
+Boeing,Issued,Alert Service Bulletin (SB) to Address Software Issue
+Federal Aviation Administration (FAA),Issued,Airworthiness Directive (AD) to Address Software Issue
+Ethiopian Airlines,Distributed,Flight Safety Information to Crew Members
+Civil Aviation Department (CAD) of Hong Kong,Conducted,Comprehensive Check of ILS
+CAD,Issued,Aeronautical Information Circular (AIC) to Warn of False Capture and Signal Deviation

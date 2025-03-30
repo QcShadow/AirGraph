@@ -1,0 +1,16 @@
+实体1,关系,实体2
+1. Boeing 787-8,Was Involved In,Serious Incident
+2. Ethiopian Airlines,Operated,Boeing 787-8
+3. Hong Kong International Airport,Was Destination Of,Flight ETH 645
+4. Flight ETH 645,Deviated From,Intended Flightpath
+5. Autoflight System,Failed To,Capture Localizer Course
+6. Localizer Course,Was Part Of,Instrument Landing System (ILS)
+7. ILS,Was Located At,Hong Kong International Airport
+8. Air Traffic Control (ATC),Instructed,Go Around
+9. Flight Crew,Identified,Deviation From Localizer Course
+10. Pilot Flying (PF),Disengaged,Autoflight System
+11. Boeing,Issued,Alert Service Bulletin (SB) to Address Software Issue
+12. Federal Aviation Administration (FAA),Issued,Airworthiness Directive (AD) to Address Software Issue
+13. Ethiopian Airlines,Distributed,Flight Safety Information to Crew Members
+14. Civil Aviation Department (CAD) of Hong Kong,Conducted,Comprehensive Check of ILS
+15. CAD,Issued,Aeronautical Information Circular (AIC) to Warn of False Capture and Signal Deviation
