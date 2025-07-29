@@ -1,0 +1,69 @@
+subject,predicate,object,event,time
+pre-takeoff preparation,time-related,takeoff,,
+takeoff,time-related,cruise phase,,
+cruise phase,time-related,accident trigger,,
+accident trigger,time-related,accident occurrence,,
+accident occurrence,time-related,accident rescue,,
+accident rescue,time-related,post-accident investigation,,
+post-accident investigation,time-related,accident outcome analysis,,
+accident outcome analysis,time-related,recommendations,,
+pre-takeoff preparation,inspection status,dhc-3 otter,,T-1
+pre-takeoff preparation,inspection status,promech air,,T-1
+pre-takeoff preparation,inspection status,weather conditions,,T-1
+dhc-3 otter,registration,n270pa,aircraft registered as n270pa,T-1
+dhc-3 otter,ownership,pantechnicon aviation,owned by pantechnicon aviation,T-1
+promech air,operation,dhc-3 otter,operated by promech air,T-1
+flight,operation,regulatory framework,on-demand sightseeing flight,T-1
+weather conditions,marginal vfr,area,"cloud ceiling 1000-3000 feet, visibility 3-5 miles, rain and mist present.",T-1
+takeoff,inspection status,dhc-3 otter,,T0
+dhc-3 otter,departure,rudyerd bay,departed from rudyerd bay at 1207,T0
+cruise phase,inspection status,pilot,,T1
+cruise phase,inspection status,flight,,T1
+cruise phase,inspection status,passengers,,T1
+cruise phase,inspection status,weather conditions,,T1
+flight,sightseeing tour,misty fjords,sightseeing tour over misty fjords national monument,T1
+pilot,route choice,short route,chose short route for return leg,T1
+weather conditions,deteriorating,accident flight,accident flight encountered deteriorating weather conditions,T1
+weather conditions,terrain obscured,accident site,terrain at accident site obscured by overcast clouds,T1
+weather conditions,visibility restricted,rain mist,visibility restricted in rain and mist,T1
+pilot,route deviation,typical route,deviated from typical short route,T1
+pilot,west turn,turning situation,turned west early after passing only first mountain,T1
+pilot,collision course,mountain,placed airplane on collision course with 1900 ft mountain,T1
+pilot,geographic disorientation,navigational situation,navigational error due to geographic disorientation,T1
+pilot,low altitude,poor weather,flying at relatively low altitude due to poor weather,T1
+pilot,limited experience,local area,relatively short time flying in local area,T1
+accident trigger,inspection status,dhc-3 otter,,T2
+accident trigger,inspection status,pilot,,T2
+dhc-3 otter,pitch up,ascending velocity,pitched up rapidly in final 2 seconds,T2
+dhc-3 otter,vertical acceleration,acceleration of gravity,experienced +2 gs vertical acceleration,T2
+pilot,aggressive pitch-up,elevator controls,pulled aggressively on elevator controls,T2
+pilot,ineffective avoidance,terrain,ineffective attempt to avoid terrain,T2
+accident occurrence,inspection status,dhc-3 otter,,T3
+dhc-3 otter,collision,mountainous terrain,collided with mountainous tree-covered terrain,T3
+dhc-3 otter,destruction,impact,airplane was destroyed,T3
+accident rescue,inspection status,fire department,,T4
+fire department,extinguishing fire,aircraft wreckage,"extinguished?post-impact fire, prevented further spread, assisted in securing hazardous materials",T4
+post-accident investigation,inspection status,ntsb investigators,,T5
+post-accident investigation,inspection status,federal aviation administration,,T5
+ntsb investigators,investigating the scene,accident scene,"determined?aircraft?impacted terrain in wings-level, nose-up attitude; all wreckage located at main site",T5
+ntsb investigators,investigating the scene,aircraft wreckage,confirmed no preimpact structural or system failure; engine and propeller showed evidence of power at impact,T5
+ntsb investigators,investigating the scene,pilot,autopsy and toxicology showed no incapacitating conditions or substance use; pilot performance not affected by fatigue or medical issues,T5
+ntsb investigators,investigate the situation of casualties,pilot,Fatalities: 1; Severe?injuries:?0; Minor injuries:?0; Uninjured: 0,T5
+ntsb investigators,investigate the situation of casualties,cabin?crew,Fatalities: 2; Severe?injuries:?0; Minor injuries: 0; Uninjured: 0,T5
+ntsb investigators,investigate the situation of casualties,passengers,Fatalities:?8; Severe?injuries:?0; Minor?injuries:?0; Uninjured: 0,T5
+federal aviation administration,investigation,promech air,found company maintained aircraft in compliance with required inspections; identified insufficient operational control and training for flight schedulers,T5
+accident outcome analysis,inspection status,ntsb,,T6
+ntsb,analysis,accident root cause,determined probable cause as pilot¡¯s continued visual flight into instrument meteorological conditions and company culture tolerating hazardous weather operations,T6
+ntsb,analysis,pilot,pilot held valid commercial license and met all regulatory and company qualification requirements,T6
+ntsb,analysis,pilot,autopsy and toxicology found no medical or toxicological factors affecting pilot performance,T6
+ntsb,analysis,dhc-3 otter,aircraft maintained in accordance with regulations; no preimpact mechanical anomalies identified,T6
+ntsb,analysis,promech air,company lacked formal?safety?management system; informal processes failed?to?identify and mitigate operational?risks,T6
+recommendations,inspection status,ntsb,,T7
+recommendations,inspection status,federal aviation administration,,T7
+recommendations,inspection status,cruise lines international association,,T7
+ntsb,safety recommendation,taws protection,implement effective taws protection while mitigating nuisance alerts,T7
+federal aviation administration,safety recommendation,taws requirements,require taws for part 135 operations in alaska,T7
+cruise lines international association,safety recommendation,taws implementation,encourage taws implementation in cruise line operations,T7
+federal aviation administration,safety recommendation,pilot,expand cfit-avoidance training requirements to all part 135 airplane pilots,T7
+federal aviation administration,safety recommendation,pilot,"improve training programs to help pilots better assess weather and operational risks, especially for new area pilots",T7
+federal aviation administration,safety recommendation,operational control personnel,establish minimum initial and recurrent training requirements for personnel authorized to exercise operational control,T7

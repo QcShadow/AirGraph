@@ -1,0 +1,82 @@
+subject,predicate,object,event,time
+pre-takeoff preparation,time-related,takeoff,,
+takeoff,time-related,cruise phase,,
+cruise phase,time-related,accident trigger,,
+accident trigger,time-related,accident occurrence,,
+accident occurrence,time-related,accident rescue,,
+accident rescue,time-related,post-accident investigation,,
+post-accident investigation,time-related,accident outcome analysis,,
+accident outcome analysis,time-related,recommendations,,
+pre-takeoff preparation,inspection status,pilot,,T-1
+pre-takeoff preparation,inspection status,ground controller,,T-1
+pre-takeoff preparation,inspection status,maintenance department,,T-1
+pilot,physical condition,history of gout,used cyclobenzaprine,T-1
+maintenance department,inspection status,aircraft,engine and control systems had no abnormal records,T-1
+ground controller,feedback,pilot,could not hear radio clearly,T-1
+pilot,adjustment,aircraft,adjusted radio equipment,T-1
+ground controller,feedback,pilot,now much better,T-1
+takeoff,inspection status,pilot,,T0
+takeoff,inspection status,ground controller,,T0
+pilot,set parameters,aircraft,PF set autopilot mode to ALT HLD (altitude hold),T0
+approach clearance,provide approach clearance,pilot,cleared for visual approach runway 28L,T0
+pilot,control,aircraft,took off from runway 17L,T0
+cruise phase,inspection status,ground controller,,T1
+cruise phase,inspection status,flight crew,,T1
+cruise phase,inspection status,pilot,,T1
+takeoff clearance,require,aircraft,turn right heading 200 and maintain initial altitude 3000 ft,T1
+pilot,control,aircraft,climbed from 2000 ft to 3000 ft,T1
+pilot,report,takeoff controller,aircraft climbed from 2000 ft to 3000 ft,T1
+takeoff controller,notify,pilot,aircraft established radar contact,T1
+takeoff controller,require,aircraft,turn right heading 290 and climb to 15000 ft£¬but no response,T1
+accident trigger,inspection status,aircraft,,T2
+accident trigger,inspection status,bird flock,,T2
+american white pelican,collision,aircraft,"bird flock collision (1514:45), energy up to 35,416 ft-lbs (far exceeds 4-lb certification standard)",T2
+aircraft,damage,left wing fuel tank,fuel leak formed white smoke trail (witness report),T2
+pilot,loss of control,aircraft,60-70 nose-down left roll£¬ entered spiral descent,T2
+airspeed warning system,issue warning,pilot,airspeed below safety threshold (below 132 knots),T2
+accident occurrence,cause accident,accident,,T3
+accident occurrence,inspection status,observer,,T3
+observer,observe,aircraft,aircraft rolled left and spiraled down to ground 4 miles from PWA,T3
+observer,observe,aircraft,saw aircraft crash and explode,T3
+observer,observe,aircraft,overflew southeast corner of Lake Overholser£¬ heard engine compressor stall,T3
+observer,observe,aircraft,white smoke trailing behind aircraft£¬ bird feathers floating in air,T3
+accident,crash,aircraft,aircraft severely fragmented and burned due to impact with trees and post-crash fire,T3
+accident,impact,other facilities,no other damage reported,T3
+observer,observe,aircraft,after crash£¬ two large white bird remains found in water£¬ pelican flock seen before accident,T4
+fire department,extinguish fire,aircraft,extinguished fire and evacuated personnel,T4
+post-accident investigation,inspection status,NTSB,,T5
+post-accident investigation,inspection status,aircraft,,T5
+NTSB,investigate,wreckage,recovered FDR/CVR (CVR damaged£¬ no data)£¬ identified bird strike remains,T5
+NTSB,analyze,DNA sample,confirmed remains as american white pelican (weight 8-20 lbs),T5
+NTSB,investigate site,aircraft,obtained CVR (tape jammed£¬ no usable info)£¬ no FDR equipped,T5
+NTSB,investigate casualties,pilot,2 fatalities,T5
+NTSB,investigate casualties,cabin crew,0 fatalities£¬ 0 serious injuries£¬ 0 minor injuries£¬ 0 uninjured,T5
+NTSB,investigate casualties,passengers,3 fatalities£¬0 serious injuries£¬ 0 minor injuries£¬ 0 uninjured,T5
+NTSB,investigate casualties,other facilities,no other damage reported,T5
+NTSB,investigate site,aircraft,feather fragments in engine matched pelican feathers,T5
+accident outcome analysis,inspection status,accident analysts,,T6
+accident analysts,analyze data,pilot,used cyclobenzaprine,T6
+accident analysts,analyze data,accident root cause,wing structure damage exceeded design limit (certified for only 4-lb bird strike),T6
+accident analysts,analyze risk,certification standard,current standards inconsistent (tail 8 lbs£¬ wing 4 lbs)£¬ not based on bird population trends,T6
+accident analysts,assign responsibility,operator,provided charter service,T6
+accident analysts,analyze data,PWA area,medium bird strike risk present,T6
+accident analysts,analyze data,crew,subjected to impact forces beyond human tolerance£¬ not survivable,T6
+accident analysts,assess hazard,PWA airport,did not conduct required wildlife hazard assessment£¬ no measures to reduce bird strike risk,T6
+accident analysts,analyze data,aircraft,maintenance not performed as required,T6
+accident analysts,analyze personnel,pilot,no direct evidence that drug use caused accident,T6
+recommendation,revise regulation,Federal Aviation Administration,revise Part 25 bird strike certification standard (Recommendation A-09-72),T7
+recommendation,revise regulation,Federal Aviation Administration,require airports to conduct wildlife hazard assessments (Recommendation A-09-73),T7
+recommendation,safety advice,Federal Aviation Administration,check CVR before first flight each day,T7
+recommendation,develop guidance,aircraft manufacturer,develop airspeed operation guidelines (minimize bird strike damage),T7
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

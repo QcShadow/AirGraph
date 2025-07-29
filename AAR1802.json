@@ -1,0 +1,1002 @@
+[
+  {
+    "number": "1",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "time-related",
+      "object": "takeoff",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "2",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "time-related",
+      "object": "cruise phase",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "3",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "time-related",
+      "object": "accident trigger",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "4",
+    "tuple": {
+      "subject": "accident trigger",
+      "predicate": "time-related",
+      "object": "accident occurrence",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "5",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "time-related",
+      "object": "accident rescue",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "6",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "time-related",
+      "object": "post-accident investigation",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "7",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "time-related",
+      "object": "accident outcome analysis",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "8",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "time-related",
+      "object": "recommendations",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "9",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "cessna 208b",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "10",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "pilot",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "11",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "passenger",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "12",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "hageland aviation",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "13",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "weather conditions",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "14",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "taws",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "15",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "medallion foundation",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "16",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "federal aviation administration",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "17",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "cessna 208b",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "18",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "19",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "passenger",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "20",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "inspection status",
+      "object": "cessna 208b",
+      "event": "",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "21",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "22",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "inspection status",
+      "object": "passenger",
+      "event": "",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "23",
+    "tuple": {
+      "subject": "accident trigger",
+      "predicate": "inspection status",
+      "object": "cessna 208b",
+      "event": "",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "24",
+    "tuple": {
+      "subject": "accident trigger",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "25",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "cessna 208b",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "26",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "27",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "passenger",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "28",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "inspection status",
+      "object": "emergency responders",
+      "event": "",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "29",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "inspection status",
+      "object": "accident scene",
+      "event": "",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "30",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "ntsb",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "31",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "federal aviation administration",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "32",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "hageland aviation",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "33",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "aircraft wreckage",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "34",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "accident analysts",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "35",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "ntsb",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "36",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "federal aviation administration",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "37",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "hageland aviation",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "38",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "medallion foundation",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "39",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "cessna 208b",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "40",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "alaska",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "41",
+    "tuple": {
+      "subject": "recommendations",
+      "predicate": "inspection status",
+      "object": "federal aviation administration",
+      "event": "",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "42",
+    "tuple": {
+      "subject": "recommendations",
+      "predicate": "inspection status",
+      "object": "medallion foundation",
+      "event": "",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "43",
+    "tuple": {
+      "subject": "recommendations",
+      "predicate": "inspection status",
+      "object": "hageland aviation",
+      "event": "",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "44",
+    "tuple": {
+      "subject": "cessna 208b",
+      "predicate": "registration",
+      "object": "n208sd",
+      "event": "aircraft registration number",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "45",
+    "tuple": {
+      "subject": "flight 3153",
+      "predicate": "operation",
+      "object": "ravn connect",
+      "event": "scheduled commuter flight",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "46",
+    "tuple": {
+      "subject": "hageland aviation",
+      "predicate": "operation",
+      "object": "flight 3153",
+      "event": "operated under vfr by hageland aviation services",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "47",
+    "tuple": {
+      "subject": "flight 3153",
+      "predicate": "regulation",
+      "object": "14 cfr part 135",
+      "event": "operated under provisions of title 14 cfr part 135",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "48",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "determination",
+      "object": "weather conditions",
+      "event": "imc were likely in vicinity of accident site",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "49",
+    "tuple": {
+      "subject": "flight 3153",
+      "predicate": "departure",
+      "object": "quinhagak airport",
+      "event": "departed quinhagak airport at 1133",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "50",
+    "tuple": {
+      "subject": "flight 3153",
+      "predicate": "destination",
+      "object": "togiak airport",
+      "event": "en route to patg",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "51",
+    "tuple": {
+      "subject": "cessna 208b",
+      "predicate": "altitude",
+      "object": "1000 ft msl",
+      "event": "proceeded at altitude of about 1000 ft msl",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "52",
+    "tuple": {
+      "subject": "cessna 208b",
+      "predicate": "terrain clearance",
+      "object": "500-700 ft agl",
+      "event": "terrain clearances between 500 and 700 ft agl",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "53",
+    "tuple": {
+      "subject": "cessna 208b",
+      "predicate": "climb",
+      "object": "mountain ridge",
+      "event": "climbed as it approached mountain ridge",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "54",
+    "tuple": {
+      "subject": "cessna 208b",
+      "predicate": "collision",
+      "object": "2300 ft msl elevation",
+      "event": "struck at elevation of about 2300 ft msl",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "55",
+    "tuple": {
+      "subject": "cessna 208b",
+      "predicate": "entry",
+      "object": "imc",
+      "event": "likely entered imc",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "56",
+    "tuple": {
+      "subject": "taws",
+      "predicate": "equipment",
+      "object": "cessna 208b",
+      "event": "equipped with class b taws",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "57",
+    "tuple": {
+      "subject": "taws",
+      "predicate": "rtc",
+      "object": "700 ft agl",
+      "event": "en route required terrain clearance of 700 ft agl",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "58",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "vfr operation",
+      "object": "500 ft agl",
+      "event": "allowed to fly as low as 500 ft agl",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "59",
+    "tuple": {
+      "subject": "taws",
+      "predicate": "inhibit switch",
+      "object": "pilot",
+      "event": "terrain inhibit switch allowed pilot to manually inhibit alerts",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "60",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "simulation",
+      "object": "taws alerts",
+      "event": "taws simulation showed continuous alerts would have been provided",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "61",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "conclusion",
+      "object": "taws alerts",
+      "event": "taws alerts were likely inhibited for most of flight",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "62",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety issue",
+      "object": "hageland crm training",
+      "event": "inadequacies in hageland's faa-approved crm training program",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "63",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "sic assignment",
+      "object": "cargo operations",
+      "event": "sometimes assigned sic to assist with cargo",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "64",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "crm cbt",
+      "object": "pic and sic roles",
+      "event": "crm cbt did not describe how pic and sic should work together",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "65",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "crm cbt",
+      "object": "aeronautical decision-making",
+      "event": "crm cbt did not address aeronautical decision-making",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "66",
+    "tuple": {
+      "subject": "faa",
+      "predicate": "oversight failure",
+      "object": "hageland crm training",
+      "event": "inadequate faa oversight of hageland's crm training program",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "67",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "accident history",
+      "object": "five accidents",
+      "event": "five accidents and runway excursion incident between 2012-2014",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "68",
+    "tuple": {
+      "subject": "faa",
+      "predicate": "suspension",
+      "object": "hageland training",
+      "event": "suspended hageland's training program december 2013 to january 2014",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "69",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendation",
+      "object": "faa",
+      "event": "issued urgent safety recommendation a-14-22 to faa",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "70",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendation",
+      "object": "faa",
+      "event": "issued safety recommendation a-14-23 for comprehensive audit",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "71",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "cfit training",
+      "object": "pilots",
+      "event": "provided cfit-avoidance ground and simulator training",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "72",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "cfit module",
+      "object": "operations training manual",
+      "event": "incorporated cfit-avoidance training module into operations training manual",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "73",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "cfit cbt",
+      "object": "outdated information",
+      "event": "cfit-avoidance cbt contained information from training aid over 20 years old",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "74",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "simulator limitation",
+      "object": "visual cues",
+      "event": "simulator lacked realistic visual cues to replicate scenarios",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "75",
+    "tuple": {
+      "subject": "faa",
+      "predicate": "regulation gap",
+      "object": "cfit training",
+      "event": "no requirements for cfit-avoidance training programs for part 135 fixed-wing operations",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "76",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendation",
+      "object": "faa",
+      "event": "issued safety recommendation a-17-38 to expand cfit training requirements",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "77",
+    "tuple": {
+      "subject": "taws",
+      "predicate": "protection limitation",
+      "object": "vfr operations",
+      "event": "lack of effective taws protections for vfr flights below rtc",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "78",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendation",
+      "object": "faa",
+      "event": "issued safety recommendation a-17-35 for taws protections",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "79",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "taws guidance",
+      "object": "terrain inhibit switch",
+      "event": "inadequate guidance for pilots' use of terrain inhibit switch",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "80",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "policy",
+      "object": "taws alerts",
+      "event": "no official published policy regarding use of terrain inhibit switch",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "81",
+    "tuple": {
+      "subject": "taws",
+      "predicate": "design limitation",
+      "object": "pilot action",
+      "event": "required pilot action to uninhibit alerts after inhibition",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "82",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "sms absence",
+      "object": "safety management",
+      "event": "did not have sms at time of accident",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "83",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendation",
+      "object": "faa",
+      "event": "issued safety recommendation a-16-36 for sms programs",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "84",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "fdm absence",
+      "object": "flight data monitoring",
+      "event": "did not have process to collect and review flight data",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "85",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendation",
+      "object": "faa",
+      "event": "issued safety recommendation a-16-34 for flight data recording devices",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "86",
+    "tuple": {
+      "subject": "medallion foundation",
+      "predicate": "oversight limitation",
+      "object": "hageland programs",
+      "event": "lack of assurance that operators implemented medallion programs effectively",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "87",
+    "tuple": {
+      "subject": "hageland",
+      "predicate": "medallion participation",
+      "object": "shield program",
+      "event": "participated in medallion foundation shield program",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "88",
+    "tuple": {
+      "subject": "alaska",
+      "predicate": "infrastructure limitation",
+      "object": "ifr operations",
+      "event": "need for improved infrastructure to support low-altitude ifr operations",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "89",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "vfr choice",
+      "object": "ifr capability",
+      "event": "chose to operate under vfr despite ifr capability",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "90",
+    "tuple": {
+      "subject": "cessna 208b",
+      "predicate": "recorder absence",
+      "object": "crash-resistant flight recorder",
+      "event": "not equipped with crash-resistant flight recorder system",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "91",
+    "tuple": {
+      "subject": "alaska",
+      "predicate": "pirep limitation",
+      "object": "weather reporting",
+      "event": "need for improved sharing of pilot weather reports in remote areas",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "92",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "probable cause",
+      "object": "flight crew decision",
+      "event": "flight crew's decision to continue vfr flight into deteriorating visibility",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "93",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "failure",
+      "object": "escape maneuver",
+      "event": "failure to perform immediate escape maneuver after entry into imc",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "94",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "contributing factors",
+      "object": "hageland taws guidance",
+      "event": "hageland's allowance of routine use of terrain inhibit switch",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "95",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "contributing factors",
+      "object": "hageland crm training",
+      "event": "hageland's inadequate crm training",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "96",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "contributing factors",
+      "object": "faa oversight",
+      "event": "faa's failure to ensure hageland's crm training contained required elements",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "97",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "contributing factors",
+      "object": "hageland cfit training",
+      "event": "hageland's cfit-avoidance ground training not tailored to operations",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "98",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendations",
+      "object": "faa",
+      "event": "makes safety recommendations to faa",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "99",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendations",
+      "object": "medallion foundation",
+      "event": "makes safety recommendations to medallion foundation",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "100",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "safety recommendations",
+      "object": "hageland",
+      "event": "makes safety recommendations to hageland",
+      "time": "T7"
+    }
+  }
+]

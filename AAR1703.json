@@ -1,0 +1,862 @@
+[
+    {
+        "number": "1",
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "time-related",
+            "object": "takeoff",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "2",
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "time-related",
+            "object": "cruise phase",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "3",
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "time-related",
+            "object": "accident trigger",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "4",
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "time-related",
+            "object": "accident occurrence",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "5",
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "time-related",
+            "object": "accident rescue",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "6",
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "time-related",
+            "object": "post-accident investigation",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "7",
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "time-related",
+            "object": "accident outcome analysis",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "8",
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "time-related",
+            "object": "recommendations",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": "9",
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "hot air balloon",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "10",
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "11",
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "flight",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "12",
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "ground crew",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "13",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "registration",
+            "object": "heart of texas hot air balloon rides",
+            "event": "balloon n2469l operated by company",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "14",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "ownership",
+            "object": "hot air balloon",
+            "event": "pilot owned and operated balloon",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "15",
+        "tuple": {
+            "subject": "flight",
+            "predicate": "operation",
+            "object": "laws and regulations",
+            "event": "sightseeing passenger flight",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "16",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "medical condition",
+            "object": "multiple disqualifying conditions",
+            "event": "adhd depression diabetes fibromyalgia",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "17",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "medication use",
+            "object": "impairing medications",
+            "event": "bupropion cyclobenzaprine diazepam methylphenidate oxycodone",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "18",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "criminal history",
+            "object": "multiple convictions",
+            "event": "drug possession dwi alcohol offenses",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "19",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "inspection status",
+            "object": "annual inspection",
+            "event": "no current annual inspection records",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "20",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "flight review",
+            "object": "current status",
+            "event": "no current flight review records",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "21",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "received?",
+            "object": "weather conditions",
+            "event": "received weather briefing at 0506， briefing included patchy fog along route, cloud observations as low as 1100 ft agl, temperature-dew point spread of 1°C indicating fog possibility",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "22",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "launch decision",
+            "object": "fentress airpark",
+            "event": "selected launch site based on pibal observation",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "23",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "weather monitoring",
+            "object": "updated forecasts",
+            "event": "did not check weather again before launch",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "24",
+        "tuple": {
+            "subject": "ground crew",
+            "predicate": "weather observation",
+            "object": "launch site",
+            "event": "stated fog was seen near launch site",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": "25",
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "hot air balloon",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": "26",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "launch",
+            "object": "fentress airpark",
+            "event": "launched at 0658 on northerly course",
+            "time": "T0"
+        }
+    },
+    {
+        "number": "27",
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "hot air balloon",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "28",
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "29",
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "ground crew",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "30",
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "weather conditions",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "31",
+        "tuple": {
+            "subject": "weather conditions",
+            "predicate": "fog development",
+            "object": "flight route",
+            "event": "fog and low clouds visible within minutes of launch",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "32",
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "position transmission",
+            "object": "ground crew",
+            "event": "sent position signal at 0726",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "33",
+        "tuple": {
+            "subject": "ground crew",
+            "predicate": "flight monitoring",
+            "object": "hot air balloon",
+            "event": "watched balloon fly in and out of clouds",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "34",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "cloud penetration",
+            "object": "dense cloud layer",
+            "event": "flying above dense cloud layer extending to horizon",
+            "time": "T1"
+        }
+    },
+    {
+        "number": "35",
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "power lines",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": "36",
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "hot air balloon",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": "37",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "collision",
+            "object": "power lines",
+            "event": "flightpath intersected power lines at 0742",
+            "time": "T2"
+        }
+    },
+    {
+        "number": "38",
+        "tuple": {
+            "subject": "power lines",
+            "predicate": "electrical arcing",
+            "object": "hot air balloon",
+            "event": "340000 volt power lines caused arcing",
+            "time": "T2"
+        }
+    },
+    {
+        "number": "39",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "descent",
+            "object": "power lines",
+            "event": "impacted power lines while descending 44 minutes after launch",
+            "time": "T2"
+        }
+    },
+    {
+        "number": "40",
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "hot air balloon",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": "41",
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "ground crew",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": "42",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "crash",
+            "object": "open field",
+            "event": "crashed in field near lockhart texas",
+            "time": "T3"
+        }
+    },
+    {
+        "number": "43",
+        "tuple": {
+            "subject": "hot air balloon",
+            "predicate": "destruction",
+            "object": "accident",
+            "event": "balloon destroyed by impact forces and postcrash fire",
+            "time": "T3"
+        }
+    },
+    {
+        "number": "44",
+        "tuple": {
+            "subject": "ground crew",
+            "predicate": "emergency response",
+            "object": "pilot",
+            "event": "went into panic mode when unable to contact pilot",
+            "time": "T3"
+        }
+    },
+    {
+        "number": "45",
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "inspection status",
+            "object": "emergency services",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": "46",
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "inspection status",
+            "object": "law enforcement",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": "47",
+        "tuple": {
+            "subject": "emergency services",
+            "predicate": "response",
+            "object": "accident site",
+            "event": "responded to balloon crash site",
+            "time": "T4"
+        }
+    },
+    {
+        "number": "48",
+        "tuple": {
+            "subject": "law enforcement",
+            "predicate": "scene control",
+            "object": "accident site",
+            "event": "blocked roads near accident site",
+            "time": "T4"
+        }
+    },
+    {
+        "number": "49",
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "50",
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "faa",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "51",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "wreckage examination",
+            "object": "hot air balloon",
+            "event": "found impact fire and electrical arcing damage",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "52",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "discover",
+            "object": "crash site",
+            "event": "envelope found 0.5 mile from basket",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "53",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "wreckage examination",
+            "object": "aircraft wreckage",
+            "event": "throat destroyed lower panels charred，basket almost entirely consumed by fire",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "54",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "exclusion analysis",
+            "object": "hot air balloon",
+            "event": "no evidence of preimpact structural or system failures",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "55",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "exclusion analysis",
+            "object": "pilot",
+            "event": "pilot blood tested negative for alcohol and illicit drugs",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "56",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "exclusion analysis",
+            "object": "controlled medical conditions",
+            "event": "high blood pressure diabetes fibromyalgia did not affect performance",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "57",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "impact sequence analysis",
+            "object": "power lines",
+            "event": "balloon support cables struck power lines causing separation",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "58",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "impact sequence analysis",
+            "object": "fuel release and fire",
+            "event": "fuel lines separated allowing propane to spray and ignite",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "59",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "pilot impairment analysis",
+            "object": "depression effects",
+            "event": "depression associated with cognitive degradation affecting decision-making",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "60",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "pilot impairment analysis",
+            "object": "pilot",
+            "event": "adhd associated with impaired decision-making and rule-governed behavior",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "61",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "pilot impairment analysis",
+            "object": "pilot",
+            "event": "multiple cns depressant drugs degraded psychomotor and cognitive skills",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "62",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "survey",
+            "object": "faa",
+            "event": "depression and adhd are disqualifying for medical certification",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "63",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "survey",
+            "object": "faa",
+            "event": "balloon pilots exempted from medical certificate requirements",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "64",
+        "tuple": {
+            "subject": "faa",
+            "predicate": "criminal record detection",
+            "object": "pilot",
+            "event": "did not detect pilot drug and alcohol convictions for over 20 years",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "65",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "faa oversight analysis",
+            "object": "pilot",
+            "event": "pilot did not stay clear of clouds and lacked current flight review",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "66",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "survey",
+            "object": "faa",
+            "event": "faa never conducted inspection of pilot operations",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "67",
+        "tuple": {
+            "subject": "faa",
+            "predicate": "surveillance strategy",
+            "object": "balloon gatherings",
+            "event": "conducted 98 percent of surveillance at balloon gatherings",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "68",
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigate the situation of casualties",
+            "object": "pilot",
+            "event": "Fatalities: 1; Severe injuries:?0; Minor injuries: 0; Uninjured:?0",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "69",
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigate the situation of casualties",
+            "object": "passengers",
+            "event": "Fatalities: 15; Severe injuries: 0; Minor injuries:?0; Uninjured:?0",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "70",
+        "tuple": {
+            "subject": "faa",
+            "predicate": "surveillance strategy",
+            "object": "individual operators",
+            "event": "only 2 percent of surveillance at individual operators",
+            "time": "T5"
+        }
+    },
+    {
+        "number": "71",
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "72",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "pilot",
+            "event": "failure to obtain updated weather information led to launch when should have cancelled",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "73",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "pilot",
+            "event": "did not land despite opportunities and decided to climb above clouds",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "74",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "pilot",
+            "event": "decision to land in reduced visibility led to power line impact",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "75",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "pilot",
+            "event": "depression adhd and cns impairing drugs affected safe decision-making",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "76",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "faa",
+            "event": "sampling at festivals does not target highest risk operations",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "77",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "probable cause determination",
+            "object": "pilot poor decision-making",
+            "event": "pattern of poor decisions led to launch continued flight and descent",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "78",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "contributing factors",
+            "object": "pilot medical conditions",
+            "event": "impairing medical conditions and medications contributed to accident",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "79",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "contributing factors",
+            "object": "faa",
+            "event": "policy not requiring medical certificate for balloon pilots contributed",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "80",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "safety issue identification",
+            "object": "medical oversight",
+            "event": "identified lack of medical oversight for commercial balloon pilots",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "81",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "safety issue identification",
+            "object": "faa",
+            "event": "identified lack of targeted faa oversight of risky operations",
+            "time": "T6"
+        }
+    },
+    {
+        "number": "82",
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": "83",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "safety recommendation",
+            "object": "faa",
+            "event": "remove medical certification exemption for commercial balloon pilots",
+            "time": "T7"
+        }
+    },
+    {
+        "number": "84",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "safety recommendation",
+            "object": "faa",
+            "event": "analyze and implement more effective oversight targeting highest risk operations",
+            "time": "T7"
+        }
+    },
+    {
+        "number": "85",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "recommendation",
+            "object": "faa",
+            "event": "faa must not rely solely on voluntary third-party guidelines",
+            "time": "T7"
+        }
+    },
+    {
+        "number": "86",
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "specific recommendation",
+            "object": "medical certificate requirement",
+            "event": "regulatory function begins with requiring medical certificate for commercial balloon pilots",
+            "time": "T7"
+        }
+    }
+]

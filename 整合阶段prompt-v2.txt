@@ -1,0 +1,17 @@
+[task] 我们已分别从报告的{6}个部分（1. Factual, 2. Analysis, 3. Conclusions, 4. Recommendations，5.Appendixes，6.Executive_summary）提取了共计{ x}个五元组。现在需要整合所有五元组，去除重复项（特别是结论部分可能复现分析部分的内容，而建议部分则可能是新的），并确保总数量合理（不要多于100个，保留次重点，允许去除重复）。请你严格遵守要求，我不要任何结果以外的说明或者解释等。
+[solution]步骤：
+1、合并之前输入的五元组，并注意合并实体（subject和object），首字母是小写
+2、去除重复的五元组
+3、注意：时间线（T-1到T6）的连续性在每个五元组中体现，思考是否需要额外添加时间连接五元组。
+[Key point]
+1、如果由于字符限制，因此可能无法一次输出全部个五元组。因此，我允许你先输出T-1到T3的部分，如果我看之后觉得没有问题，我会要求你在输出T4-T7的部分，你的编号因该是连贯的。
+2、再次强调：可以简单一下，保留次重点的五元组，要subject和时间一定要有关联，（一定），注意合并，减少节点的个数。
+3、无论报告原文是否有直接描述，每个时间锚点（T-1~T7）和每个出现的subject都必须有一条结构性五元组，格式为：{ "subject": "xxx", "predicate": "xxx", "object": "xxx", "event": "", "time": "Tn" }， “结构性五元组”不需要证据链，结构性五元组不需要证据链支撑，是为了保证图谱连通性，注意：predicate的值可以根据subject和time关系并结合文章中的含义自行定义（如inspection status、participation、involvement等），event值为空。
+4、输出前请检查每个Tn和subject组合是否都有结构性五元组，若缺失请补充，重点检查T-1，T5，T6部分，一定要确保T-1，T5，T6每个subject有结构性五元组。
+[example] 
+accident occurrence,inspection status,cessna 500,,T3
+accident occurrence,inspection status,passengers,,T3
+cessna 500,crash,ground,aircraft crashed about 2 minutes after takeoff,T3
+pilot,fatal injury,accident,pilot killed in crash,T3（解释：缺少accident occurrence和pilot关系accident occurrence,inspection status,pilot,,T3）
+passengers,fatal injury,accident,passengers killed in crash,T3
+cessna 500,destruction,impact forces,airplane destroyed by impact and fire,T3

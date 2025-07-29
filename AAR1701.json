@@ -1,0 +1,992 @@
+[
+    {
+        "number": 1,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "time-related",
+            "object": "takeoff",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 2,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "time-related",
+            "object": "cruise phase",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 3,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "time-related",
+            "object": "accident trigger",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 4,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "time-related",
+            "object": "accident occurrence",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 5,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "time-related",
+            "object": "accident rescue",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 6,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "time-related",
+            "object": "post-accident investigation",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 7,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "time-related",
+            "object": "accident outcome analysis",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 8,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "time-related",
+            "object": "recommendations",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 9,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "airbus helicopters as350 b3e",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 10,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 11,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "flight nurses",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 12,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "registration",
+            "object": "air methods corporation",
+            "event": "helicopter registered to air methods",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 13,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "operation",
+            "object": "air methods corporation",
+            "event": "helicopter operated by air methods",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 14,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "dual hydraulic system",
+            "object": "main rotor and tail rotor controls",
+            "event": "dual hydraulic system provides redundancy for main rotor, single for tail rotor",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 15,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "certification",
+            "object": "faa",
+            "event": "helicopter properly certificated and maintained",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 16,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "certification",
+            "object": "faa",
+            "event": "pilot properly certificated and qualified",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 17,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "physical condition",
+            "object": "fatigue and medication",
+            "event": "pilot fatigue and medication not factors",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 18,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "flight release",
+            "object": "operations control center",
+            "event": "pilot received flight release after verification",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 19,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "preflight inspection",
+            "object": "airbus helicopters as350 b3e",
+            "event": "pilot performed preflight inspection",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 20,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "preflight hydraulic check",
+            "object": "yaw load compensator",
+            "event": "pilot required to perform preflight hydraulic check",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 21,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "airbus helicopters as350 b3e",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 22,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 23,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "takeoff",
+            "object": "summit medical center heliport",
+            "event": "helicopter lifted off from helipad",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 24,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "failure to reset",
+            "object": "yaw servo hydraulic switch",
+            "event": "pilot did not return yaw servo hydraulic switch to on position before takeoff",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 25,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "failure to perform",
+            "object": "hover check",
+            "event": "pilot did not perform hover check before takeoff",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 26,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 27,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "flight nurses",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 28,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "control flight status",
+            "object": "airbus helicopters as350 b3e",
+            "event": "helicopter began counterclockwise turn and spinning",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 29,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "loss of control",
+            "object": "airbus helicopters as350 b3e",
+            "event": "lack of hydraulic boost to pedals led to loss of tail rotor control and left yaw",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 30,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "continued takeoff",
+            "object": "airbus helicopters as350 b3e",
+            "event": "pilot continued takeoff despite increased pedal loads",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 31,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "tail rotor control",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 32,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "hydraulic boost to pedals",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 33,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "loss of tail rotor control",
+            "object": "hydraulic boost to pedals",
+            "event": "lack of hydraulic boost led to loss of tail rotor control",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 34,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "airbus helicopters as350 b3e",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 35,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 36,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "flight nurses",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 37,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "fuel system",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 38,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "impact",
+            "object": "parking lot and rv",
+            "event": "helicopter impacted rv and ground, postcrash fire ensued",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 39,
+        "tuple": {
+            "subject": "airbus helicopters as350 b3e",
+            "predicate": "postcrash fire",
+            "object": "wreckage",
+            "event": "fuel ignited, postcrash fire consumed helicopter",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 40,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "fatal injury",
+            "object": "accident",
+            "event": "pilot fatally injured by impact and fire",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 41,
+        "tuple": {
+            "subject": "flight nurses",
+            "predicate": "serious injury",
+            "object": "accident",
+            "event": "flight nurses seriously injured, one with severe burns",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 42,
+        "tuple": {
+            "subject": "fuel system",
+            "predicate": "non-crash resistant",
+            "object": "thermal injuries",
+            "event": "non-crash resistant fuel system increased risk of thermal injuries",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 43,
+        "tuple": {
+            "subject": "flight nurse",
+            "predicate": "ejection",
+            "object": "seat",
+            "event": "flight nurse in left aft seat ejected with seat during accident",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 44,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "inspection status",
+            "object": "bystander",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 45,
+        "tuple": {
+            "subject": "bystander",
+            "predicate": "rescue",
+            "object": "pilot",
+            "event": "bystander pulled pilot from cockpit and extinguished fire",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 46,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 47,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "investigation department",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 48,
+        "tuple": {
+            "subject": "accident investigation",
+            "predicate": "inspection status",
+            "object": "ntsb board",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 49,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "crashworthiness standards",
+            "event": "most helicopters do not include improved crashworthiness standards",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 50,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "flight recorder system",
+            "event": "data could have been recovered from compliant flight recorder system",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 51,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "lack of cockpit alert",
+            "event": "no cockpit alert for loss of hydraulic boost to pedals",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 52,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "tail rotor control design",
+            "event": "need for changes to ensure pedal control hydraulic assistance and mitigate pilot error",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 53,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "crashworthiness information",
+            "event": "lack of information for operators on crashworthiness equipment",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 54,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "crash-resistant fuel system",
+            "event": "need for crash-resistant fuel systems for helicopters not covered by 1994 requirements",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 55,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "finding",
+            "object": "flight recorder system",
+            "event": "lack of requirements for crash-resistant flight recorders on small aircraft",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 56,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "analysis",
+            "object": "pilot error",
+            "event": "pilot did not return yaw servo hydraulic switch to on position",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 57,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "analysis",
+            "object": "underlying factors",
+            "event": "investigation focused on underlying factors, not just pilot error",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 58,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "analysis",
+            "object": "airbus helicopters procedure",
+            "event": "preflight test procedure could set a trap if last step omitted",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 59,
+        "tuple": {
+            "subject": "airbus helicopters",
+            "predicate": "system design",
+            "object": "hydraulic alerting",
+            "event": "lack of salient alerting for hydraulic pressure loss after preflight check",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 60,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "conclusion",
+            "object": "system design factors",
+            "event": "system design set the stage for pilot error",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 61,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "analysis",
+            "object": "investigation challenges",
+            "event": "lack of crash resistant recorders and access to evidence hinder investigations",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 62,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "analysis",
+            "object": "witness statements",
+            "event": "witness statements may be affected by trauma or bias",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 63,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "analysis",
+            "object": "design integrity",
+            "event": "design integrity involves hardware and operating procedures",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 64,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 65,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "conclusion",
+            "object": "loss of hydraulic boost to pedals",
+            "event": "lack of hydraulic boost most likely caused loss of tail rotor control",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 66,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "conclusion",
+            "object": "failure to perform hover check",
+            "event": "hover check would have revealed pedal control anomaly",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 67,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "conclusion",
+            "object": "crashworthiness standards",
+            "event": "impact forces were survivable, but postcrash fire caused fatal injuries",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 68,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "analysis",
+            "object": "probable cause",
+            "event": "probable cause is accumulation of facts and scientific reasoning",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 69,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "conclusion",
+            "object": "operator error and design flaw",
+            "event": "accident caused by combination of operator error and design flaw",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 70,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "conclusion",
+            "object": "post-crash fire",
+            "event": "pilot's injuries may have been survivable but for post-crash fire",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 71,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "conclusion",
+            "object": "probable cause",
+            "event": "preflight hydraulic check and lack of alerting led to loss of control",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 72,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "conclusion",
+            "object": "contributing factors",
+            "event": "failure to perform hover check and non-crash resistant fuel system increased severity",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 73,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "faa",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 74,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "airbus helicopters",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 75,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "easa",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 76,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "association of critical care transport",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 77,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "association of air medical services",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 78,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "air medical operators association",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 79,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "requirement",
+            "object": "airbus helicopters as350 series",
+            "event": "require visual and aural alert for loss of hydraulic boost to pedals",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 80,
+        "tuple": {
+            "subject": "airbus helicopters",
+            "predicate": "system improvement",
+            "object": "dual hydraulic system",
+            "event": "implement changes to ensure pedal control hydraulic assistance and mitigate pilot error",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 81,
+        "tuple": {
+            "subject": "easa",
+            "predicate": "requirement",
+            "object": "airbus helicopters as350 series",
+            "event": "require operators to incorporate changes to dual hydraulic system",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 82,
+        "tuple": {
+            "subject": "association of critical care transport",
+            "predicate": "guideline development",
+            "object": "crashworthiness equipment",
+            "event": "develop guidelines for crash-resistant fuel system and energy-absorbing seats",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 83,
+        "tuple": {
+            "subject": "association of air medical services",
+            "predicate": "collaboration",
+            "object": "association of critical care transport",
+            "event": "work together to develop crashworthiness guidelines",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 84,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "approval",
+            "object": "crash-resistant fuel system retrofit kit",
+            "event": "prioritize approval for retrofit kit for as350 b3e and variants",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 85,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "information bulletin",
+            "object": "crash-resistant fuel system retrofit kit",
+            "event": "issue bulletin to inform owners and urge installation",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 86,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "information bulletin",
+            "object": "fuel system crashworthiness modifications",
+            "event": "periodically update and urge installation of modifications",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 87,
+        "tuple": {
+            "subject": "easa",
+            "predicate": "approval",
+            "object": "crash-resistant fuel system retrofit kit",
+            "event": "prioritize approval for retrofit kit for as350 b3e and variants",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 88,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "requirement",
+            "object": "crash-resistant flight recorder system",
+            "event": "require installation on all newly manufactured turbine-powered aircraft not equipped with fdr/cvr",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 89,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "requirement",
+            "object": "crash-resistant flight recorder system retrofit",
+            "event": "require retrofit for all existing turbine-powered aircraft not equipped with fdr/cvr",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 90,
+        "tuple": {
+            "subject": "crash-resistant flight recorder system",
+            "predicate": "specification",
+            "object": "technical standard order c197",
+            "event": "system should record cockpit audio, images, and parametric data",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 91,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "safety recommendation",
+            "object": "crash-resistant fuel system",
+            "event": "require retrofit and installation of crash-resistant fuel systems",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 92,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "safety recommendation",
+            "object": "hydraulic system alert",
+            "event": "require visual and aural alert for loss of hydraulic boost to pedals",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 93,
+        "tuple": {
+            "subject": "faa",
+            "predicate": "safety recommendation",
+            "object": "flight recorder system",
+            "event": "require installation of compliant flight recorder systems",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 94,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "recommendation",
+            "object": "system improvement",
+            "event": "recommendations aimed at correcting underlying factors",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 95,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "recommendation",
+            "object": "hardware design improvement",
+            "event": "incorporate visible and audible alert for hydraulic pressure loss",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 96,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "recommendation",
+            "object": "manufacturer safety communication",
+            "event": "manufacturers should convey safety implications and support corrective action",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 97,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "recommendation",
+            "object": "crash-resistant fuel system retrofit",
+            "event": "support retrofitting helicopters to prevent post-crash fire injuries",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 98,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "recommendation",
+            "object": "adherence to procedures",
+            "event": "emphasize importance of preflight checklists and hover checks",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 99,
+        "tuple": {
+            "subject": "ntsb board",
+            "predicate": "recommendation",
+            "object": "technology and training",
+            "event": "support use of technology and best practices to assist operators",
+            "time": "T7"
+        }
+    }
+]

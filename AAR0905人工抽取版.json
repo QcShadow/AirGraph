@@ -1,0 +1,682 @@
+[
+    {
+        "number": 1,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "time-related",
+            "object": "takeoff",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 2,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "time-related",
+            "object": "cruise phase",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 3,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "time-related",
+            "object": "accident trigger",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 4,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "time-related",
+            "object": "accident occurrence",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 5,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "time-related",
+            "object": "accident rescue",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 6,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "time-related",
+            "object": "post-accident investigation",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 7,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "time-related",
+            "object": "accident outcome analysis",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 8,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "time-related",
+            "object": "recommendations",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 18,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 19,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "ground controller",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 20,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "maintenance department",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 21,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "physical condition",
+            "object": "history of gout",
+            "event": "used cyclobenzaprine",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 22,
+        "tuple": {
+            "subject": "maintenance department",
+            "predicate": "inspection status",
+            "object": "aircraft",
+            "event": "engine and control systems had no abnormal records",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 23,
+        "tuple": {
+            "subject": "ground controller",
+            "predicate": "feedback",
+            "object": "pilot",
+            "event": "could not hear radio clearly",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 24,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "adjustment",
+            "object": "aircraft",
+            "event": "adjusted radio equipment",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 25,
+        "tuple": {
+            "subject": "ground controller",
+            "predicate": "feedback",
+            "object": "pilot",
+            "event": "now much better",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 26,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 27,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "ground controller",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 28,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "set parameters",
+            "object": "aircraft",
+            "event": "PF set autopilot mode to ALT HLD (altitude hold)",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 29,
+        "tuple": {
+            "subject": "approach clearance",
+            "predicate": "provide approach clearance",
+            "object": "pilot",
+            "event": "cleared for visual approach runway 28L",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 30,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "control",
+            "object": "aircraft",
+            "event": "took off from runway 17L",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 31,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "ground controller",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 32,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "flight crew",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 33,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 34,
+        "tuple": {
+            "subject": "takeoff clearance",
+            "predicate": "require",
+            "object": "aircraft",
+            "event": "turn right heading 200 and maintain initial altitude 3000 ft",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 35,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "control",
+            "object": "aircraft",
+            "event": "climbed from 2000 ft to 3000 ft",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 36,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "report",
+            "object": "takeoff controller",
+            "event": "aircraft climbed from 2000 ft to 3000 ft",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 37,
+        "tuple": {
+            "subject": "takeoff controller",
+            "predicate": "notify",
+            "object": "pilot",
+            "event": "aircraft established radar contact",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 38,
+        "tuple": {
+            "subject": "takeoff controller",
+            "predicate": "require",
+            "object": "aircraft",
+            "event": "turn right heading 290 and climb to 15000 ft，but no response",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 39,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "aircraft",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 40,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "bird flock",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 41,
+        "tuple": {
+            "subject": "american white pelican",
+            "predicate": "collision",
+            "object": "aircraft",
+            "event": "bird flock collision (1514:45), energy up to 35,416 ft-lbs (far exceeds 4-lb certification standard)",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 42,
+        "tuple": {
+            "subject": "aircraft",
+            "predicate": "damage",
+            "object": "left wing fuel tank",
+            "event": "fuel leak formed white smoke trail (witness report)",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 43,
+        "tuple": {
+            "subject": "aircraft",
+            "predicate": "loss of control",
+            "object": "none",
+            "event": "60-70掳 nose-down left roll， entered spiral descent",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 44,
+        "tuple": {
+            "subject": "airspeed warning system",
+            "predicate": "issue warning",
+            "object": "pilot",
+            "event": "airspeed below safety threshold (below 132 knots)",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 45,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "cause accident",
+            "object": "accident",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 46,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "observer",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 47,
+        "tuple": {
+            "subject": "observer",
+            "predicate": "observe",
+            "object": "aircraft",
+            "event": "aircraft rolled left and spiraled down to ground 4 miles from PWA",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 48,
+        "tuple": {
+            "subject": "observer",
+            "predicate": "observe",
+            "object": "aircraft",
+            "event": "saw aircraft crash and explode",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 49,
+        "tuple": {
+            "subject": "observer",
+            "predicate": "observe",
+            "object": "aircraft",
+            "event": "overflew southeast corner of Lake Overholser， heard engine compressor stall",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 50,
+        "tuple": {
+            "subject": "observer",
+            "predicate": "observe",
+            "object": "aircraft",
+            "event": "white smoke trailing behind aircraft， bird feathers floating in air",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 51,
+        "tuple": {
+            "subject": "accident",
+            "predicate": "crash",
+            "object": "aircraft",
+            "event": "aircraft severely fragmented and burned due to impact with trees and post-crash fire",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 52,
+        "tuple": {
+            "subject": "accident",
+            "predicate": "impact",
+            "object": "other facilities",
+            "event": "no other damage reported",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 53,
+        "tuple": {
+            "subject": "observer",
+            "predicate": "observe",
+            "object": "aircraft",
+            "event": "after crash， two large white bird remains found in water， pelican flock seen before accident",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 54,
+        "tuple": {
+            "subject": "fire department",
+            "predicate": "extinguish fire",
+            "object": "aircraft",
+            "event": "extinguished fire and evacuated personnel",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 55,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "NTSB",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 57,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "investigate",
+            "object": "aircraft",
+            "event": "recovered FDR/CVR (CVR damaged， no data)， identified bird strike remains",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 58,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "analyze",
+            "object": "DNA sample",
+            "event": "confirmed remains as american white pelican (weight 8-20 lbs)",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 59,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "investigate site",
+            "object": "aircraft",
+            "event": "obtained CVR (tape jammed， no usable info)， no FDR equipped",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 60,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "investigate casualties",
+            "object": "pilot",
+            "event": "2 fatalities",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 61,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "investigate casualties",
+            "object": "cabin crew",
+            "event": "0 fatalities， 0 serious injuries， 0 minor injuries， 0 uninjured",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 62,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "investigate casualties",
+            "object": "passengers",
+            "event": "3 fatalities，0 serious injuries， 0 minor injuries， 0 uninjured",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 63,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "investigate casualties",
+            "object": "other facilities",
+            "event": "no other damage reported",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 64,
+        "tuple": {
+            "subject": "NTSB",
+            "predicate": "investigate site",
+            "object": "aircraft",
+            "event": "feather fragments in engine matched pelican feathers",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 65,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "accident analysts",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 66,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "analyze data",
+            "object": "pilot",
+            "event": "used cyclobenzaprine",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 67,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "analyze data",
+            "object": "accident root cause",
+            "event": "wing structure damage exceeded design limit (certified for only 4-lb bird strike)",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 68,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "analyze risk",
+            "object": "certification standard",
+            "event": "current standards inconsistent (tail 8 lbs， wing 4 lbs)， not based on bird population trends",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 69,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "assign responsibility",
+            "object": "operator",
+            "event": "provided charter service",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 70,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "analyze data",
+            "object": "PWA area",
+            "event": "medium bird strike risk present",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 71,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "analyze data",
+            "object": "crew",
+            "event": "subjected to impact forces beyond human tolerance， not survivable",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 72,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "assess hazard",
+            "object": "PWA airport",
+            "event": "did not conduct required wildlife hazard assessment， no measures to reduce bird strike risk",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 73,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "analyze data",
+            "object": "aircraft",
+            "event": "maintenance not performed as required",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 74,
+        "tuple": {
+            "subject": "accident analysts",
+            "predicate": "analyze personnel",
+            "object": "pilot",
+            "event": "no direct evidence that drug use caused accident",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 75,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "revise regulation",
+            "object": "Federal Aviation Administration",
+            "event": "revise Part 25 bird strike certification standard (Recommendation A-09-72)",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 76,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "revise regulation",
+            "object": "Federal Aviation Administration",
+            "event": "require airports to conduct wildlife hazard assessments (Recommendation A-09-73)",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 77,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "safety advice",
+            "object": "Federal Aviation Administration",
+            "event": "check CVR before first flight each day",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 78,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "develop guidance",
+            "object": "aircraft manufacturer",
+            "event": "develop airspeed operation guidelines (minimize bird strike damage)",
+            "time": "T7"
+        }
+    }
+]

@@ -1,0 +1,912 @@
+[
+    {
+        "number": 1,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "time-related",
+            "object": "takeoff",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 2,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "time-related",
+            "object": "cruise phase",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 3,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "time-related",
+            "object": "accident trigger",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 4,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "time-related",
+            "object": "accident occurrence",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 5,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "time-related",
+            "object": "accident rescue",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 6,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "time-related",
+            "object": "post-accident investigation",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 7,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "time-related",
+            "object": "accident outcome analysis",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 8,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "time-related",
+            "object": "recommendations",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 10,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "cessna 500",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 11,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 12,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "maintenance records",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 13,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "interstate helicopters",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 14,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "registration",
+            "object": "southwest orthopedic clinic",
+            "event": "aircraft registered to southwest orthopedic clinic",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 15,
+        "tuple": {
+            "subject": "maintenance records",
+            "predicate": "documentation",
+            "object": "cessna 500",
+            "event": "records revealed numerous omissions and errors",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 16,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "qualification",
+            "object": "cessna 500",
+            "event": "certificated and qualified for noncommercial single pilot operations",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 17,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "medical condition",
+            "object": "gout history",
+            "event": "pilot had history of gout",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 18,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "medication use",
+            "object": "cyclobenzaprine",
+            "event": "pilot using cyclobenzaprine medication",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 19,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "qualification",
+            "object": "cessna 500",
+            "event": "second pilot not trained or qualified to fly the airplane",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 20,
+        "tuple": {
+            "subject": "flight",
+            "predicate": "operation",
+            "object": "laws and regulations",
+            "event": "operated under part 91 with ifr flight plan",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 21,
+        "tuple": {
+            "subject": "flight",
+            "predicate": "origin",
+            "object": "interstate helicopters ramp",
+            "event": "originated from part 135 helicopter operator's ramp",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 22,
+        "tuple": {
+            "subject": "interstate helicopters",
+            "predicate": "illegal operation",
+            "object": "cessna 500",
+            "event": "conducted flight contrary to part 135 operating certificate",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 23,
+        "tuple": {
+            "subject": "interstate helicopters",
+            "predicate": "deception",
+            "object": "invoices",
+            "event": "labeled invoices as aircraft leases to disguise charter flights",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 24,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "carry",
+            "object": "passengers",
+            "event": "carrying executives from united engines",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 25,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "flight crew",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 26,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "ground controller",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 27,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "cessna 500",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 28,
+        "tuple": {
+            "subject": "ground controller",
+            "predicate": "clearance",
+            "object": "flight",
+            "event": "cleared for takeoff from runway 17l",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 29,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "takeoff",
+            "object": "wiley post airport",
+            "event": "aircraft departed from pwa airport",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 30,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "flight crew",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 31,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "ground controller",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 32,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "flight",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 33,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "operation",
+            "object": "cessna 500",
+            "event": "flight climbed to assigned altitude of 3000 feet",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 34,
+        "tuple": {
+            "subject": "flight",
+            "predicate": "position",
+            "object": "lake overholser",
+            "event": "flew over southeast corner at 1800 feet agl",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 35,
+        "tuple": {
+            "subject": "flight crew",
+            "predicate": "communication",
+            "object": "ground controller",
+            "event": "reported climbing to 3000 feet",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 36,
+        "tuple": {
+            "subject": "ground controller",
+            "predicate": "instruction",
+            "object": "flight crew",
+            "event": "turn right to heading 290 and climb to 15000 feet",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 37,
+        "tuple": {
+            "subject": "flight crew",
+            "predicate": "no response",
+            "object": "ground controller",
+            "event": "no response to controller instructions",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 38,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "american white pelicans",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 39,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "cessna 500",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 40,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "primary radar returns",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 41,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "witness",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 42,
+        "tuple": {
+            "subject": "primary radar returns",
+            "predicate": "identification",
+            "object": "american white pelicans",
+            "event": "radar detected flock of pelicans",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 43,
+        "tuple": {
+            "subject": "american white pelicans",
+            "predicate": "weight",
+            "object": "certification standards",
+            "event": "pelicans could weigh up to 20 pounds vs 4-pound wing certification",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 44,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "collision",
+            "object": "american white pelicans",
+            "event": "airplane collided with flock of pelicans",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 45,
+        "tuple": {
+            "subject": "american white pelicans",
+            "predicate": "certification limit",
+            "object": "cessna 500",
+            "event": "bird strike energy far exceeded certification limit",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 46,
+        "tuple": {
+            "subject": "american white pelicans",
+            "predicate": "damage",
+            "object": "cessna 500",
+            "event": "wing structure damaged during bird impact",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 47,
+        "tuple": {
+            "subject": "american white pelicans",
+            "predicate": "damage",
+            "object": "cessna 500",
+            "event": "bird strike breached integral wet-wing fuel tank",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 48,
+        "tuple": {
+            "subject": "witness",
+            "predicate": "catch sight of",
+            "object": "cessna 500",
+            "event": "visible fuel or fuel-vapor trail from left side",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 49,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "ingestion",
+            "object": "american white pelicans",
+            "event": "engine ingested pelican and stopped operating",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 50,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "operation",
+            "object": "thrust",
+            "event": "capable of producing sufficient thrust with right engine inoperative",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 51,
+        "tuple": {
+            "subject": "witness",
+            "predicate": "observation",
+            "object": "aircraft",
+            "event": "heard engine compressor stall sound",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 52,
+        "tuple": {
+            "subject": "witness",
+            "predicate": "observation",
+            "object": "aircraft",
+            "event": "saw aircraft descending at 60-70 degree nose-down attitude",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 53,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "cessna 500",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 54,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 55,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "passengers",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 56,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "loss of control",
+            "object": "wing damage",
+            "event": "loss of control due to wing structure damage",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 57,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "flight motion",
+            "object": "left roll",
+            "event": "airplane rolled left through inverted position",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 58,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "steep descent",
+            "object": "ground",
+            "event": "entered steep descent about 2 minutes after takeoff",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 59,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "crash",
+            "object": "impact site",
+            "event": "aircraft crashed about 2 minutes after takeoff",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 60,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "fatal injury",
+            "object": "accident",
+            "event": "pilot killed in crash",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 61,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "fatal injury",
+            "object": "accident",
+            "event": "second pilot killed in crash",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 62,
+        "tuple": {
+            "subject": "passengers",
+            "predicate": "fatal injury",
+            "object": "accident",
+            "event": "passengers killed in crash",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 63,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 64,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "cessna 500",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 65,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "right horizontal stabilizer",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 66,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "cvr",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 67,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "fragmentation",
+            "object": "impact site",
+            "event": "severely fragmented over 300 feet area",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 68,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "analysis",
+            "object": "flight control surfaces",
+            "event": "no evidence of precrash malfunction",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 69,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "analysis",
+            "object": "bird strike evidence",
+            "event": "no evidence bird penetrated cockpit",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 70,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "dna analysis",
+            "object": "bird remains",
+            "event": "identified american white pelican remains",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 71,
+        "tuple": {
+            "subject": "right horizontal stabilizer",
+            "predicate": "analysis",
+            "object": "bird remains",
+            "event": "american white pelican splatter residue identified",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 72,
+        "tuple": {
+            "subject": "cvr",
+            "predicate": "malfunction",
+            "object": "tape mechanism",
+            "event": "prevented recovery of audio information",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 73,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "cessna 500",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 74,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "bird strike energy",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 75,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "accident root cause",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 76,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "oklahoma city fsdo",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 77,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "bird strike requirement",
+            "object": "wing structures",
+            "event": "designed to withstand 4-lb bird at 287 kts",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 78,
+        "tuple": {
+            "subject": "cessna 500",
+            "predicate": "certification standard",
+            "object": "tail structure",
+            "event": "tail certified for impact with 8-pound bird",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 79,
+        "tuple": {
+            "subject": "bird strike energy",
+            "predicate": "calculation",
+            "object": "kinetic energy",
+            "event": "strike energy could reach 35,416 ft-lbs vs 14,586 ft-lbs standard",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 80,
+        "tuple": {
+            "subject": "accident root cause",
+            "predicate": "determination",
+            "object": "american white pelicans",
+            "event": "wing damage from collision with american white pelicans",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 81,
+        "tuple": {
+            "subject": "oklahoma city fsdo",
+            "predicate": "oversight failure",
+            "object": "interstate helicopters",
+            "event": "lax oversight and surveillance of operator",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 82,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "federal aviation administration",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 83,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "bird-strike certification",
+            "event": "revise part 25 requirements for consistent protection",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 84,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "wildlife hazard assessment",
+            "event": "verify airports near wildlife attractants comply with requirements",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 85,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "aircraft manufacturers",
+            "event": "require development of aircraft-specific guidance for bird strike operations",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 86,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "wildlife strike reporting",
+            "event": "require mandatory reporting from airports and operators",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 87,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "truth-in-leasing regulations",
+            "event": "revise 14 cfr 91.23 to include all turbine-powered airplanes",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 88,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "flight plans",
+            "event": "require identification of operator and operating rules on flight plans",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 89,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "part 135 operators",
+            "event": "require written disclosure of terms of carriage to customers",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 90,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "aircraft charter guide",
+            "event": "update website with reliable operator certification information",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 91,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "inspector surveillance",
+            "event": "improve on-site surveillance to detect improper charter operations",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 92,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "pilot",
+            "event": "require functionality test before first flight of each day",
+            "time": "T7"
+        }
+    }
+]

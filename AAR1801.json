@@ -1,0 +1,902 @@
+[
+  {
+    "number": "1",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "time-related",
+      "object": "takeoff",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "2",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "time-related",
+      "object": "cruise phase",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "3",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "time-related",
+      "object": "accident trigger",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "4",
+    "tuple": {
+      "subject": "accident trigger",
+      "predicate": "time-related",
+      "object": "accident occurrence",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "5",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "time-related",
+      "object": "accident rescue",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "6",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "time-related",
+      "object": "post-accident investigation",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "7",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "time-related",
+      "object": "accident outcome analysis",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "8",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "time-related",
+      "object": "recommendations",
+      "event": "",
+      "time": ""
+    }
+  },
+  {
+    "number": "9",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "boeing 767-323",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "10",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "11",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "passengers",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "12",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "flight attendants",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "13",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "american airlines",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "14",
+    "tuple": {
+      "subject": "pre-takeoff preparation",
+      "predicate": "inspection status",
+      "object": "chicago o'hare international airport",
+      "event": "",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "15",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "certification",
+      "object": "federal regulations",
+      "event": "properly certificated and qualified",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "16",
+    "tuple": {
+      "subject": "boeing 767-323",
+      "predicate": "operation",
+      "object": "14 code of federal regulations part 121",
+      "event": "operating under provisions",
+      "time": "T-1"
+    }
+  },
+  {
+    "number": "17",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "boeing 767-323",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "18",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "19",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "passengers",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "20",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "flight attendants",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "21",
+    "tuple": {
+      "subject": "takeoff",
+      "predicate": "inspection status",
+      "object": "american airlines",
+      "event": "",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "22",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "control flight",
+      "object": "boeing 767-323",
+      "event": "started takeoff ground roll",
+      "time": "T0"
+    }
+  },
+  {
+    "number": "23",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "inspection status",
+      "object": "boeing 767-323",
+      "event": "",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "24",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "25",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "inspection status",
+      "object": "passengers",
+      "event": "",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "26",
+    "tuple": {
+      "subject": "cruise phase",
+      "predicate": "inspection status",
+      "object": "flight attendants",
+      "event": "",
+      "time": "T1"
+    }
+  },
+  {
+    "number": "27",
+    "tuple": {
+      "subject": "accident trigger",
+      "predicate": "inspection status",
+      "object": "right engine",
+      "event": "",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "28",
+    "tuple": {
+      "subject": "accident trigger",
+      "predicate": "inspection status",
+      "object": "hpt stage 2 disk",
+      "event": "",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "29",
+    "tuple": {
+      "subject": "accident trigger",
+      "predicate": "inspection status",
+      "object": "boeing 767-323",
+      "event": "",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "30",
+    "tuple": {
+      "subject": "right engine",
+      "predicate": "failure",
+      "object": "hpt stage 2 disk",
+      "event": "uncontained engine failure",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "31",
+    "tuple": {
+      "subject": "hpt stage 2 disk",
+      "predicate": "rupture",
+      "object": "engine fragment",
+      "event": "disk separated into two fragments",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "32",
+    "tuple": {
+      "subject": "engine fragment",
+      "predicate": "penetration",
+      "object": "right wing",
+      "event": "fragment penetrated through inboard section",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "33",
+    "tuple": {
+      "subject": "engine fragment",
+      "predicate": "damage",
+      "object": "main engine fuel feed line",
+      "event": "severed the main engine fuel feed line",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "34",
+    "tuple": {
+      "subject": "engine fragment",
+      "predicate": "breach",
+      "object": "fuel tank",
+      "event": "breached the fuel tank",
+      "time": "T2"
+    }
+  },
+  {
+    "number": "35",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "boeing 767-323",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "36",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "37",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "passengers",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "38",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "flight attendants",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "39",
+    "tuple": {
+      "subject": "accident occurrence",
+      "predicate": "inspection status",
+      "object": "fire",
+      "event": "",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "40",
+    "tuple": {
+      "subject": "fuel",
+      "predicate": "release",
+      "object": "fire",
+      "event": "releasing fuel that resulted in fire",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "41",
+    "tuple": {
+      "subject": "fire",
+      "predicate": "occurrence",
+      "object": "right side of airplane",
+      "event": "fire occurred on right side during takeoff roll",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "42",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "control flight",
+      "object": "boeing 767-323",
+      "event": "aborted the takeoff and stopped airplane on runway",
+      "time": "T3"
+    }
+  },
+  {
+    "number": "43",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "inspection status",
+      "object": "flight crew",
+      "event": "",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "44",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "inspection status",
+      "object": "flight attendants",
+      "event": "",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "45",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "inspection status",
+      "object": "passengers",
+      "event": "",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "46",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "inspection status",
+      "object": "fire department",
+      "event": "",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "47",
+    "tuple": {
+      "subject": "accident rescue",
+      "predicate": "inspection status",
+      "object": "emergency evacuation",
+      "event": "",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "48",
+    "tuple": {
+      "subject": "flight attendants",
+      "predicate": "initiation",
+      "object": "emergency evacuation",
+      "event": "initiated emergency evacuation",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "49",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "performance",
+      "object": "engine fire checklist",
+      "event": "performed memory items on engine fire checklist",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "50",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "control",
+      "object": "right engine",
+      "event": "instructed to shut down engine on affected side",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "51",
+    "tuple": {
+      "subject": "captain",
+      "predicate": "deviation",
+      "object": "engine fire checklist",
+      "event": "did not perform remaining steps of engine fire checklist",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "52",
+    "tuple": {
+      "subject": "captain",
+      "predicate": "initiation",
+      "object": "evacuation checklist",
+      "event": "called for evacuation checklist",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "53",
+    "tuple": {
+      "subject": "flight crew",
+      "predicate": "control",
+      "object": "left engine",
+      "event": "left engine was shut down as part of evacuation checklist",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "54",
+    "tuple": {
+      "subject": "flight attendants",
+      "predicate": "deviation",
+      "object": "company procedures",
+      "event": "opened left overwing exit while engine was still operating",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "55",
+    "tuple": {
+      "subject": "passengers",
+      "predicate": "injury",
+      "object": "jet blast",
+      "event": "passenger was knocked down by jet blast from left engine",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "56",
+    "tuple": {
+      "subject": "passengers",
+      "predicate": "injury",
+      "object": "serious injury",
+      "event": "1 passenger received serious injury",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "57",
+    "tuple": {
+      "subject": "passengers",
+      "predicate": "injury",
+      "object": "minor injuries",
+      "event": "19 passengers received minor injuries",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "58",
+    "tuple": {
+      "subject": "flight attendants",
+      "predicate": "injury",
+      "object": "minor injury",
+      "event": "1 flight attendant received minor injury",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "59",
+    "tuple": {
+      "subject": "fire",
+      "predicate": "damage",
+      "object": "boeing 767-323",
+      "event": "airplane was substantially damaged from fire",
+      "time": "T4"
+    }
+  },
+  {
+    "number": "60",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "ntsb",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "61",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "hpt stage 2 disk",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "62",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "investigation department",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "63",
+    "tuple": {
+      "subject": "post-accident investigation",
+      "predicate": "inspection status",
+      "object": "accident analysts",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "64",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "investigation",
+      "object": "hpt stage 2 disk",
+      "event": "examination of fracture surfaces revealed subsurface material discontinuities",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "65",
+    "tuple": {
+      "subject": "accident analysts",
+      "predicate": "crack initiation",
+      "object": "multiple cracks",
+      "event": "multiple cracks initiating along edges of discontinuities",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "66",
+    "tuple": {
+      "subject": "multiple cracks",
+      "predicate": "characteristics",
+      "object": "low-cycle fatigue",
+      "event": "cracks exhibited characteristics consistent with low-cycle fatigue",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "67",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "investigation",
+      "object": "discrete dirty white spot",
+      "event": "found discrete dirty white spot was most likely not detectable during inspections",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "68",
+    "tuple": {
+      "subject": "american airlines",
+      "predicate": "maintenance",
+      "object": "hpt stage 2 disk",
+      "event": "performed eddy current inspection and fluorescent penetrant inspection",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "69",
+    "tuple": {
+      "subject": "accident analysts",
+      "predicate": "use",
+      "object": "inspection techniques",
+      "event": "",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "70",
+    "tuple": {
+      "subject": "inspection techniques",
+      "predicate": "limitation",
+      "object": "subsurface anomalies",
+      "event": "were not capable of detecting cracks from subsurface anomaly",
+      "time": "T5"
+    }
+  },
+  {
+    "number": "71",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "ntsb",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "72",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "faa",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "73",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "american airlines",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "74",
+    "tuple": {
+      "subject": "accident outcome analysis",
+      "predicate": "inspection status",
+      "object": "boeing",
+      "event": "",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "75",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "identification",
+      "object": "safety issues",
+      "event": "identified safety issues as result of accident investigation",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "76",
+    "tuple": {
+      "subject": "faa",
+      "predicate": "guidance",
+      "object": "production inspection processes",
+      "event": "lack of recent guidance comparing production inspection processes",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "77",
+    "tuple": {
+      "subject": "inspection techniques",
+      "predicate": "detection",
+      "object": "internal defects",
+      "event": "typically performed to detect internal defects in nickel alloy components",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "78",
+    "tuple": {
+      "subject": "discrete dirty white spot",
+      "predicate": "detection",
+      "object": "ultrasonic inspection",
+      "event": "was most likely not detectable by ultrasonic inspection methods",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "79",
+    "tuple": {
+      "subject": "faa",
+      "predicate": "report",
+      "object": "enhanced ultrasonic inspection techniques",
+      "event": "2005 report found enhanced ultrasonic inspection techniques could better detect defects",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "80",
+    "tuple": {
+      "subject": "american airlines",
+      "predicate": "checklist procedure",
+      "object": "engine fire checklist",
+      "event": "engine fire checklist delayed flight crew from initiating evacuation",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "81",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "determination",
+      "object": "probable cause",
+      "event": "determined probable cause was failure of HPT stage 2 disk",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "82",
+    "tuple": {
+      "subject": "hpt stage 2 disk",
+      "predicate": "failure",
+      "object": "low-cycle fatigue cracks",
+      "event": "failed because of low-cycle fatigue cracks from subsurface manufacturing anomaly",
+      "time": "T6"
+    }
+  },
+  {
+    "number": "83",
+    "tuple": {
+      "subject": "recommendations",
+      "predicate": "inspection status",
+      "object": "ntsb",
+      "event": "",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "84",
+    "tuple": {
+      "subject": "recommendations",
+      "predicate": "inspection status",
+      "object": "faa",
+      "event": "",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "85",
+    "tuple": {
+      "subject": "recommendations",
+      "predicate": "inspection status",
+      "object": "american airlines",
+      "event": "",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "86",
+    "tuple": {
+      "subject": "recommendations",
+      "predicate": "inspection status",
+      "object": "boeing",
+      "event": "",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "87",
+    "tuple": {
+      "subject": "faa",
+      "predicate": "rulemaking",
+      "object": "ultrasonic inspection",
+      "event": "issued notice of proposed rulemaking to mandate ultrasonic inspection",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "88",
+    "tuple": {
+      "subject": "faa",
+      "predicate": "advisory circular",
+      "object": "design precautions",
+      "event": "issued AC 20-128A for minimizing hazards from uncontained engine failures",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "89",
+    "tuple": {
+      "subject": "flight attendants",
+      "predicate": "training",
+      "object": "exit assessment",
+      "event": "need for improved training regarding assessing exits for evacuations",
+      "time": "T7"
+    }
+  },
+  {
+    "number": "90",
+    "tuple": {
+      "subject": "ntsb",
+      "predicate": "recommendation",
+      "object": "faa",
+      "event": "makes safety recommendations to FAA, Boeing, and American Airlines",
+      "time": "T7"
+    }
+  }
+]

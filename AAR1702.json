@@ -1,0 +1,682 @@
+[
+    {
+        "number": 1,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "time-related",
+            "object": "takeoff",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 2,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "time-related",
+            "object": "cruise phase",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 3,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "time-related",
+            "object": "accident trigger",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 4,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "time-related",
+            "object": "accident occurrence",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 5,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "time-related",
+            "object": "accident rescue",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 6,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "time-related",
+            "object": "post-accident investigation",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 7,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "time-related",
+            "object": "accident outcome analysis",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 8,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "time-related",
+            "object": "recommendations",
+            "event": "",
+            "time": ""
+        }
+    },
+    {
+        "number": 27,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "dhc-3 otter",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 28,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "promech air",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 29,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "weather conditions",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 30,
+        "tuple": {
+            "subject": "dhc-3 otter",
+            "predicate": "registration",
+            "object": "n270pa",
+            "event": "aircraft registered as n270pa",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 31,
+        "tuple": {
+            "subject": "dhc-3 otter",
+            "predicate": "ownership",
+            "object": "pantechnicon aviation",
+            "event": "owned by pantechnicon aviation",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 32,
+        "tuple": {
+            "subject": "promech air",
+            "predicate": "operation",
+            "object": "dhc-3 otter",
+            "event": "operated by promech air",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 33,
+        "tuple": {
+            "subject": "flight",
+            "predicate": "operation",
+            "object": "regulatory framework",
+            "event": "on-demand sightseeing flight",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 34,
+        "tuple": {
+            "subject": "weather conditions",
+            "predicate": "marginal vfr",
+            "object": "area",
+            "event": "cloud ceiling 1000-3000 feet, visibility 3-5 miles, rain and mist present.",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 35,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "dhc-3 otter",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 36,
+        "tuple": {
+            "subject": "dhc-3 otter",
+            "predicate": "departure",
+            "object": "rudyerd bay",
+            "event": "departed from rudyerd bay at 1207",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 37,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 38,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "flight",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 39,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "passengers",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 40,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "weather conditions",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 41,
+        "tuple": {
+            "subject": "flight",
+            "predicate": "sightseeing tour",
+            "object": "misty fjords",
+            "event": "sightseeing tour over misty fjords national monument",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 42,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "route choice",
+            "object": "short route",
+            "event": "chose short route for return leg",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 43,
+        "tuple": {
+            "subject": "weather conditions",
+            "predicate": "deteriorating",
+            "object": "accident flight",
+            "event": "accident flight encountered deteriorating weather conditions",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 44,
+        "tuple": {
+            "subject": "weather conditions",
+            "predicate": "terrain obscured",
+            "object": "accident site",
+            "event": "terrain at accident site obscured by overcast clouds",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 45,
+        "tuple": {
+            "subject": "weather conditions",
+            "predicate": "visibility restricted",
+            "object": "rain mist",
+            "event": "visibility restricted in rain and mist",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 46,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "route deviation",
+            "object": "typical route",
+            "event": "deviated from typical short route",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 47,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "west turn",
+            "object": "turning situation",
+            "event": "turned west early after passing only first mountain",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 48,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "collision course",
+            "object": "mountain",
+            "event": "placed airplane on collision course with 1900 ft mountain",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 49,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "geographic disorientation",
+            "object": "navigational situation",
+            "event": "navigational error due to geographic disorientation",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 50,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "low altitude",
+            "object": "poor weather",
+            "event": "flying at relatively low altitude due to poor weather",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 51,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "limited experience",
+            "object": "local area",
+            "event": "relatively short time flying in local area",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 52,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "dhc-3 otter",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 53,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 54,
+        "tuple": {
+            "subject": "dhc-3 otter",
+            "predicate": "pitch up",
+            "object": "ascending velocity",
+            "event": "pitched up rapidly in final 2 seconds",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 55,
+        "tuple": {
+            "subject": "dhc-3 otter",
+            "predicate": "vertical acceleration",
+            "object": "acceleration of gravity",
+            "event": "experienced +2 gs vertical acceleration",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 56,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "aggressive pitch-up",
+            "object": "elevator controls",
+            "event": "pulled aggressively on elevator controls",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 57,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "ineffective avoidance",
+            "object": "terrain",
+            "event": "ineffective attempt to avoid terrain",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 58,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "dhc-3 otter",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 59,
+        "tuple": {
+            "subject": "dhc-3 otter",
+            "predicate": "collision",
+            "object": "mountainous terrain",
+            "event": "collided with mountainous tree-covered terrain",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 60,
+        "tuple": {
+            "subject": "dhc-3 otter",
+            "predicate": "destruction",
+            "object": "impact",
+            "event": "airplane was destroyed",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 61,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "inspection status",
+            "object": "fire department",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 62,
+        "tuple": {
+            "subject": "fire department",
+            "predicate": "extinguishing fire",
+            "object": "aircraft wreckage",
+            "event": "extinguished?post-impact fire, prevented further spread, assisted in securing hazardous materials",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 63,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "ntsb investigators",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 64,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "federal aviation administration",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 65,
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigating the scene",
+            "object": "accident scene",
+            "event": "determined?aircraft?impacted terrain in wings-level, nose-up attitude; all wreckage located at main site",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 66,
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigating the scene",
+            "object": "aircraft wreckage",
+            "event": "confirmed no preimpact structural or system failure; engine and propeller showed evidence of power at impact",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 67,
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigating the scene",
+            "object": "pilot",
+            "event": "autopsy and toxicology showed no incapacitating conditions or substance use; pilot performance not affected by fatigue or medical issues",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 68,
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigate the situation of casualties",
+            "object": "pilot",
+            "event": "Fatalities: 1; Severe?injuries:?0; Minor injuries:?0; Uninjured: 0",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 69,
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigate the situation of casualties",
+            "object": "cabin?crew",
+            "event": "Fatalities: 2; Severe?injuries:?0; Minor injuries: 0; Uninjured: 0",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 70,
+        "tuple": {
+            "subject": "ntsb investigators",
+            "predicate": "investigate the situation of casualties",
+            "object": "passengers",
+            "event": "Fatalities:?8; Severe?injuries:?0; Minor?injuries:?0; Uninjured: 0",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 71,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "investigation",
+            "object": "promech air",
+            "event": "found company maintained aircraft in compliance with required inspections; identified insufficient operational control and training for flight schedulers",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 72,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 73,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "analysis",
+            "object": "accident root cause",
+            "event": "determined probable cause as pilot’s continued visual flight into instrument meteorological conditions and company culture tolerating hazardous weather operations",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 74,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "analysis",
+            "object": "pilot",
+            "event": "pilot held valid commercial license and met all regulatory and company qualification requirements",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 75,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "analysis",
+            "object": "pilot",
+            "event": "autopsy and toxicology found no medical or toxicological factors affecting pilot performance",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 76,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "analysis",
+            "object": "dhc-3 otter",
+            "event": "aircraft maintained in accordance with regulations; no preimpact mechanical anomalies identified",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 77,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "analysis",
+            "object": "promech air",
+            "event": "company lacked formal?safety?management system; informal processes failed?to?identify and mitigate operational?risks",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 78,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "ntsb",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 79,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "federal aviation administration",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 80,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "cruise lines international association",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 81,
+        "tuple": {
+            "subject": "ntsb",
+            "predicate": "safety recommendation",
+            "object": "taws protection",
+            "event": "implement effective taws protection while mitigating nuisance alerts",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 82,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "taws requirements",
+            "event": "require taws for part 135 operations in alaska",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 83,
+        "tuple": {
+            "subject": "cruise lines international association",
+            "predicate": "safety recommendation",
+            "object": "taws implementation",
+            "event": "encourage taws implementation in cruise line operations",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 84,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "pilot",
+            "event": "expand cfit-avoidance training requirements to all part 135 airplane pilots",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 85,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "pilot",
+            "event": "improve training programs to help pilots better assess weather and operational risks, especially for new area pilots",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 86,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "safety recommendation",
+            "object": "operational control personnel",
+            "event": "establish minimum initial and recurrent training requirements for personnel authorized to exercise operational control",
+            "time": "T7"
+        }
+    }
+]

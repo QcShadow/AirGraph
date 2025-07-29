@@ -1,0 +1,91 @@
+subject,predicate,object,event,time
+pre-takeoff preparation,time-related,takeoff,,
+takeoff,time-related,cruise phase,,
+cruise phase,time-related,accident trigger,,
+accident trigger,time-related,accident occurrence,,
+accident occurrence,time-related,accident rescue,,
+accident rescue,time-related,post-accident investigation,,
+post-accident investigation,time-related,accident outcome analysis,,
+accident outcome analysis,time-related,recommendations,,
+pre-takeoff preparation,inspection status,boeing 767-323,,T-1
+pre-takeoff preparation,inspection status,flight crew,,T-1
+pre-takeoff preparation,inspection status,passengers,,T-1
+pre-takeoff preparation,inspection status,flight attendants,,T-1
+pre-takeoff preparation,inspection status,american airlines,,T-1
+pre-takeoff preparation,inspection status,chicago o'hare international airport,,T-1
+flight crew,certification,federal regulations,properly certificated and qualified,T-1
+boeing 767-323,operation,14 code of federal regulations part 121,operating under provisions,T-1
+takeoff,inspection status,boeing 767-323,,T0
+takeoff,inspection status,flight crew,,T0
+takeoff,inspection status,passengers,,T0
+takeoff,inspection status,flight attendants,,T0
+takeoff,inspection status,american airlines,,T0
+flight crew,control flight,boeing 767-323,started takeoff ground roll,T0
+cruise phase,inspection status,boeing 767-323,,T1
+cruise phase,inspection status,flight crew,,T1
+cruise phase,inspection status,passengers,,T1
+cruise phase,inspection status,flight attendants,,T1
+accident trigger,inspection status,right engine,,T2
+accident trigger,inspection status,hpt stage 2 disk,,T2
+accident trigger,inspection status,boeing 767-323,,T2
+right engine,failure,hpt stage 2 disk,uncontained engine failure,T2
+hpt stage 2 disk,rupture,engine fragment,disk separated into two fragments,T2
+engine fragment,penetration,right wing,fragment penetrated through inboard section,T2
+engine fragment,damage,main engine fuel feed line,severed the main engine fuel feed line,T2
+engine fragment,breach,fuel tank,breached the fuel tank,T2
+accident occurrence,inspection status,boeing 767-323,,T3
+accident occurrence,inspection status,flight crew,,T3
+accident occurrence,inspection status,passengers,,T3
+accident occurrence,inspection status,flight attendants,,T3
+accident occurrence,inspection status,fire,,T3
+fuel,release,fire,releasing fuel that resulted in fire,T3
+fire,occurrence,right side of airplane,fire occurred on right side during takeoff roll,T3
+flight crew,control flight,boeing 767-323,aborted the takeoff and stopped airplane on runway,T3
+accident rescue,inspection status,flight crew,,T4
+accident rescue,inspection status,flight attendants,,T4
+accident rescue,inspection status,passengers,,T4
+accident rescue,inspection status,fire department,,T4
+accident rescue,inspection status,emergency evacuation,,T4
+flight attendants,initiation,emergency evacuation,initiated emergency evacuation,T4
+flight crew,performance,engine fire checklist,performed memory items on engine fire checklist,T4
+flight crew,control,right engine,instructed to shut down engine on affected side,T4
+captain,deviation,engine fire checklist,did not perform remaining steps of engine fire checklist,T4
+captain,initiation,evacuation checklist,called for evacuation checklist,T4
+flight crew,control,left engine,left engine was shut down as part of evacuation checklist,T4
+flight attendants,deviation,company procedures,opened left overwing exit while engine was still operating,T4
+passengers,injury,jet blast,passenger was knocked down by jet blast from left engine,T4
+passengers,injury,serious injury,1 passenger received serious injury,T4
+passengers,injury,minor injuries,19 passengers received minor injuries,T4
+flight attendants,injury,minor injury,1 flight attendant received minor injury,T4
+fire,damage,boeing 767-323,airplane was substantially damaged from fire,T4
+post-accident investigation,inspection status,ntsb,,T5
+post-accident investigation,inspection status,hpt stage 2 disk,,T5
+post-accident investigation,inspection status,investigation department,,T5
+post-accident investigation,inspection status,accident analysts,,T5
+ntsb,investigation,hpt stage 2 disk,examination of fracture surfaces revealed subsurface material discontinuities,T5
+accident analysts,crack initiation,multiple cracks,multiple cracks initiating along edges of discontinuities,T5
+multiple cracks,characteristics,low-cycle fatigue,cracks exhibited characteristics consistent with low-cycle fatigue,T5
+ntsb,investigation,discrete dirty white spot,found discrete dirty white spot was most likely not detectable during inspections,T5
+american airlines,maintenance,hpt stage 2 disk,performed eddy current inspection and fluorescent penetrant inspection,T5
+accident analysts,use,inspection techniques,,T5
+inspection techniques,limitation,subsurface anomalies,were not capable of detecting cracks from subsurface anomaly,T5
+accident outcome analysis,inspection status,ntsb,,T6
+accident outcome analysis,inspection status,faa,,T6
+accident outcome analysis,inspection status,american airlines,,T6
+accident outcome analysis,inspection status,boeing,,T6
+ntsb,identification,safety issues,identified safety issues as result of accident investigation,T6
+faa,guidance,production inspection processes,lack of recent guidance comparing production inspection processes,T6
+inspection techniques,detection,internal defects,typically performed to detect internal defects in nickel alloy components,T6
+discrete dirty white spot,detection,ultrasonic inspection,was most likely not detectable by ultrasonic inspection methods,T6
+faa,report,enhanced ultrasonic inspection techniques,2005 report found enhanced ultrasonic inspection techniques could better detect defects,T6
+american airlines,checklist procedure,engine fire checklist,engine fire checklist delayed flight crew from initiating evacuation,T6
+ntsb,determination,probable cause,determined probable cause was failure of HPT stage 2 disk,T6
+hpt stage 2 disk,failure,low-cycle fatigue cracks,failed because of low-cycle fatigue cracks from subsurface manufacturing anomaly,T6
+recommendations,inspection status,ntsb,,T7
+recommendations,inspection status,faa,,T7
+recommendations,inspection status,american airlines,,T7
+recommendations,inspection status,boeing,,T7
+faa,rulemaking,ultrasonic inspection,issued notice of proposed rulemaking to mandate ultrasonic inspection,T7
+faa,advisory circular,design precautions,issued AC 20-128A for minimizing hazards from uncontained engine failures,T7
+flight attendants,training,exit assessment,need for improved training regarding assessing exits for evacuations,T7
+ntsb,recommendation,faa,"makes safety recommendations to FAA, Boeing, and American Airlines",T7

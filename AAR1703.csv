@@ -1,0 +1,87 @@
+subject,predicate,object,event,time
+pre-takeoff preparation,time-related,takeoff,,
+takeoff,time-related,cruise phase,,
+cruise phase,time-related,accident trigger,,
+accident trigger,time-related,accident occurrence,,
+accident occurrence,time-related,accident rescue,,
+accident rescue,time-related,post-accident investigation,,
+post-accident investigation,time-related,accident outcome analysis,,
+accident outcome analysis,time-related,recommendations,,
+pre-takeoff preparation,inspection status,hot air balloon,,T-1
+pre-takeoff preparation,inspection status,pilot,,T-1
+pre-takeoff preparation,inspection status,flight,,T-1
+pre-takeoff preparation,inspection status,ground crew,,T-1
+hot air balloon,registration,heart of texas hot air balloon rides,balloon n2469l operated by company,T-1
+pilot,ownership,hot air balloon,pilot owned and operated balloon,T-1
+flight,operation,laws and regulations,sightseeing passenger flight,T-1
+pilot,medical condition,multiple disqualifying conditions,adhd depression diabetes fibromyalgia,T-1
+pilot,medication use,impairing medications,bupropion cyclobenzaprine diazepam methylphenidate oxycodone,T-1
+pilot,criminal history,multiple convictions,drug possession dwi alcohol offenses,T-1
+hot air balloon,inspection status,annual inspection,no current annual inspection records,T-1
+pilot,flight review,current status,no current flight review records,T-1
+pilot,received?,weather conditions,"received weather briefing at 0506， briefing included patchy fog along route, cloud observations as low as 1100 ft agl, temperature-dew point spread of 1°C indicating fog possibility",T-1
+pilot,launch decision,fentress airpark,selected launch site based on pibal observation,T-1
+pilot,weather monitoring,updated forecasts,did not check weather again before launch,T-1
+ground crew,weather observation,launch site,stated fog was seen near launch site,T-1
+takeoff,inspection status,hot air balloon,,T0
+hot air balloon,launch,fentress airpark,launched at 0658 on northerly course,T0
+cruise phase,inspection status,hot air balloon,,T1
+cruise phase,inspection status,pilot,,T1
+cruise phase,inspection status,ground crew,,T1
+cruise phase,inspection status,weather conditions,,T1
+weather conditions,fog development,flight route,fog and low clouds visible within minutes of launch,T1
+pilot,position transmission,ground crew,sent position signal at 0726,T1
+ground crew,flight monitoring,hot air balloon,watched balloon fly in and out of clouds,T1
+hot air balloon,cloud penetration,dense cloud layer,flying above dense cloud layer extending to horizon,T1
+accident trigger,inspection status,power lines,,T2
+accident trigger,inspection status,hot air balloon,,T2
+hot air balloon,collision,power lines,flightpath intersected power lines at 0742,T2
+power lines,electrical arcing,hot air balloon,340000 volt power lines caused arcing,T2
+hot air balloon,descent,power lines,impacted power lines while descending 44 minutes after launch,T2
+accident occurrence,inspection status,hot air balloon,,T3
+accident occurrence,inspection status,ground crew,,T3
+hot air balloon,crash,open field,crashed in field near lockhart texas,T3
+hot air balloon,destruction,accident,balloon destroyed by impact forces and postcrash fire,T3
+ground crew,emergency response,pilot,went into panic mode when unable to contact pilot,T3
+accident rescue,inspection status,emergency services,,T4
+accident rescue,inspection status,law enforcement,,T4
+emergency services,response,accident site,responded to balloon crash site,T4
+law enforcement,scene control,accident site,blocked roads near accident site,T4
+post-accident investigation,inspection status,ntsb,,T5
+post-accident investigation,inspection status,faa,,T5
+ntsb,wreckage examination,hot air balloon,found impact fire and electrical arcing damage,T5
+ntsb,discover,crash site,envelope found 0.5 mile from basket,T5
+ntsb,wreckage examination,aircraft wreckage,throat destroyed lower panels charred，basket almost entirely consumed by fire,T5
+ntsb,exclusion analysis,hot air balloon,no evidence of preimpact structural or system failures,T5
+ntsb,exclusion analysis,pilot,pilot blood tested negative for alcohol and illicit drugs,T5
+ntsb,exclusion analysis,controlled medical conditions,high blood pressure diabetes fibromyalgia did not affect performance,T5
+ntsb,impact sequence analysis,power lines,balloon support cables struck power lines causing separation,T5
+ntsb,impact sequence analysis,fuel release and fire,fuel lines separated allowing propane to spray and ignite,T5
+ntsb,pilot impairment analysis,depression effects,depression associated with cognitive degradation affecting decision-making,T5
+ntsb,pilot impairment analysis,pilot,adhd associated with impaired decision-making and rule-governed behavior,T5
+ntsb,pilot impairment analysis,pilot,multiple cns depressant drugs degraded psychomotor and cognitive skills,T5
+ntsb,survey,faa,depression and adhd are disqualifying for medical certification,T5
+ntsb,survey,faa,balloon pilots exempted from medical certificate requirements,T5
+faa,criminal record detection,pilot,did not detect pilot drug and alcohol convictions for over 20 years,T5
+ntsb,faa oversight analysis,pilot,pilot did not stay clear of clouds and lacked current flight review,T5
+ntsb,survey,faa,faa never conducted inspection of pilot operations,T5
+faa,surveillance strategy,balloon gatherings,conducted 98 percent of surveillance at balloon gatherings,T5
+ntsb investigators,investigate the situation of casualties,pilot,Fatalities: 1; Severe injuries:?0; Minor injuries: 0; Uninjured:?0,T5
+ntsb investigators,investigate the situation of casualties,passengers,Fatalities: 15; Severe injuries: 0; Minor injuries:?0; Uninjured:?0,T5
+faa,surveillance strategy,individual operators,only 2 percent of surveillance at individual operators,T5
+accident outcome analysis,inspection status,ntsb,,T6
+ntsb,finding,pilot,failure to obtain updated weather information led to launch when should have cancelled,T6
+ntsb,finding,pilot,did not land despite opportunities and decided to climb above clouds,T6
+ntsb,finding,pilot,decision to land in reduced visibility led to power line impact,T6
+ntsb,finding,pilot,depression adhd and cns impairing drugs affected safe decision-making,T6
+ntsb,finding,faa,sampling at festivals does not target highest risk operations,T6
+ntsb,probable cause determination,pilot poor decision-making,pattern of poor decisions led to launch continued flight and descent,T6
+ntsb,contributing factors,pilot medical conditions,impairing medical conditions and medications contributed to accident,T6
+ntsb,contributing factors,faa,policy not requiring medical certificate for balloon pilots contributed,T6
+ntsb,safety issue identification,medical oversight,identified lack of medical oversight for commercial balloon pilots,T6
+ntsb,safety issue identification,faa,identified lack of targeted faa oversight of risky operations,T6
+recommendations,inspection status,ntsb,,T7
+ntsb,safety recommendation,faa,remove medical certification exemption for commercial balloon pilots,T7
+ntsb,safety recommendation,faa,analyze and implement more effective oversight targeting highest risk operations,T7
+ntsb,recommendation,faa,faa must not rely solely on voluntary third-party guidelines,T7
+ntsb,specific recommendation,medical certificate requirement,regulatory function begins with requiring medical certificate for commercial balloon pilots,T7

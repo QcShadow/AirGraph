@@ -1,0 +1,101 @@
+subject,predicate,object,event,time
+pre-takeoff preparation,time-related,takeoff,,
+takeoff,time-related,cruise phase,,
+cruise phase,time-related,accident trigger,,
+accident trigger,time-related,accident occurrence,,
+accident occurrence,time-related,accident rescue,,
+accident rescue,time-related,post-accident investigation,,
+post-accident investigation,time-related,accident outcome analysis,,
+accident outcome analysis,time-related,recommendations,,
+pre-takeoff preparation,inspection status,cessna 208b,,T-1
+pre-takeoff preparation,inspection status,pilot,,T-1
+pre-takeoff preparation,inspection status,passenger,,T-1
+pre-takeoff preparation,inspection status,hageland aviation,,T-1
+pre-takeoff preparation,inspection status,weather conditions,,T-1
+pre-takeoff preparation,inspection status,taws,,T-1
+pre-takeoff preparation,inspection status,medallion foundation,,T-1
+pre-takeoff preparation,inspection status,federal aviation administration,,T-1
+takeoff,inspection status,cessna 208b,,T0
+takeoff,inspection status,flight crew,,T0
+takeoff,inspection status,passenger,,T0
+cruise phase,inspection status,cessna 208b,,T1
+cruise phase,inspection status,flight crew,,T1
+cruise phase,inspection status,passenger,,T1
+accident trigger,inspection status,cessna 208b,,T2
+accident trigger,inspection status,flight crew,,T2
+accident occurrence,inspection status,cessna 208b,,T3
+accident occurrence,inspection status,flight crew,,T3
+accident occurrence,inspection status,passenger,,T3
+accident rescue,inspection status,emergency responders,,T4
+accident rescue,inspection status,accident scene,,T4
+post-accident investigation,inspection status,ntsb,,T5
+post-accident investigation,inspection status,federal aviation administration,,T5
+post-accident investigation,inspection status,hageland aviation,,T5
+post-accident investigation,inspection status,aircraft wreckage,,T5
+post-accident investigation,inspection status,accident analysts,,T5
+accident outcome analysis,inspection status,ntsb,,T6
+accident outcome analysis,inspection status,federal aviation administration,,T6
+accident outcome analysis,inspection status,hageland aviation,,T6
+accident outcome analysis,inspection status,medallion foundation,,T6
+accident outcome analysis,inspection status,cessna 208b,,T6
+accident outcome analysis,inspection status,alaska,,T6
+recommendations,inspection status,federal aviation administration,,T7
+recommendations,inspection status,medallion foundation,,T7
+recommendations,inspection status,hageland aviation,,T7
+cessna 208b,registration,n208sd,aircraft registration number,T-1
+flight 3153,operation,ravn connect,scheduled commuter flight,T-1
+hageland aviation,operation,flight 3153,operated under vfr by hageland aviation services,T-1
+flight 3153,regulation,14 cfr part 135,operated under provisions of title 14 cfr part 135,T-1
+ntsb,determination,weather conditions,imc were likely in vicinity of accident site,T6
+flight 3153,departure,quinhagak airport,departed quinhagak airport at 1133,T0
+flight 3153,destination,togiak airport,en route to patg,T1
+cessna 208b,altitude,1000 ft msl,proceeded at altitude of about 1000 ft msl,T1
+cessna 208b,terrain clearance,500-700 ft agl,terrain clearances between 500 and 700 ft agl,T1
+cessna 208b,climb,mountain ridge,climbed as it approached mountain ridge,T2
+cessna 208b,collision,2300 ft msl elevation,struck at elevation of about 2300 ft msl,T3
+cessna 208b,entry,imc,likely entered imc,T2
+taws,equipment,cessna 208b,equipped with class b taws,T-1
+taws,rtc,700 ft agl,en route required terrain clearance of 700 ft agl,T-1
+hageland,vfr operation,500 ft agl,allowed to fly as low as 500 ft agl,T-1
+taws,inhibit switch,pilot,terrain inhibit switch allowed pilot to manually inhibit alerts,T-1
+ntsb,simulation,taws alerts,taws simulation showed continuous alerts would have been provided,T6
+ntsb,conclusion,taws alerts,taws alerts were likely inhibited for most of flight,T6
+ntsb,safety issue,hageland crm training,inadequacies in hageland's faa-approved crm training program,T6
+hageland,sic assignment,cargo operations,sometimes assigned sic to assist with cargo,T-1
+hageland,crm cbt,pic and sic roles,crm cbt did not describe how pic and sic should work together,T6
+hageland,crm cbt,aeronautical decision-making,crm cbt did not address aeronautical decision-making,T6
+faa,oversight failure,hageland crm training,inadequate faa oversight of hageland's crm training program,T6
+hageland,accident history,five accidents,five accidents and runway excursion incident between 2012-2014,T6
+faa,suspension,hageland training,suspended hageland's training program december 2013 to january 2014,T6
+ntsb,safety recommendation,faa,issued urgent safety recommendation a-14-22 to faa,T6
+ntsb,safety recommendation,faa,issued safety recommendation a-14-23 for comprehensive audit,T6
+hageland,cfit training,pilots,provided cfit-avoidance ground and simulator training,T-1
+hageland,cfit module,operations training manual,incorporated cfit-avoidance training module into operations training manual,T-1
+hageland,cfit cbt,outdated information,cfit-avoidance cbt contained information from training aid over 20 years old,T6
+hageland,simulator limitation,visual cues,simulator lacked realistic visual cues to replicate scenarios,T6
+faa,regulation gap,cfit training,no requirements for cfit-avoidance training programs for part 135 fixed-wing operations,T6
+ntsb,safety recommendation,faa,issued safety recommendation a-17-38 to expand cfit training requirements,T6
+taws,protection limitation,vfr operations,lack of effective taws protections for vfr flights below rtc,T6
+ntsb,safety recommendation,faa,issued safety recommendation a-17-35 for taws protections,T6
+hageland,taws guidance,terrain inhibit switch,inadequate guidance for pilots' use of terrain inhibit switch,T6
+hageland,policy,taws alerts,no official published policy regarding use of terrain inhibit switch,T6
+taws,design limitation,pilot action,required pilot action to uninhibit alerts after inhibition,T6
+hageland,sms absence,safety management,did not have sms at time of accident,T6
+ntsb,safety recommendation,faa,issued safety recommendation a-16-36 for sms programs,T6
+hageland,fdm absence,flight data monitoring,did not have process to collect and review flight data,T6
+ntsb,safety recommendation,faa,issued safety recommendation a-16-34 for flight data recording devices,T6
+medallion foundation,oversight limitation,hageland programs,lack of assurance that operators implemented medallion programs effectively,T6
+hageland,medallion participation,shield program,participated in medallion foundation shield program,T-1
+alaska,infrastructure limitation,ifr operations,need for improved infrastructure to support low-altitude ifr operations,T6
+flight crew,vfr choice,ifr capability,chose to operate under vfr despite ifr capability,T1
+cessna 208b,recorder absence,crash-resistant flight recorder,not equipped with crash-resistant flight recorder system,T6
+alaska,pirep limitation,weather reporting,need for improved sharing of pilot weather reports in remote areas,T6
+ntsb,probable cause,flight crew decision,flight crew's decision to continue vfr flight into deteriorating visibility,T6
+flight crew,failure,escape maneuver,failure to perform immediate escape maneuver after entry into imc,T2
+ntsb,contributing factors,hageland taws guidance,hageland's allowance of routine use of terrain inhibit switch,T6
+ntsb,contributing factors,hageland crm training,hageland's inadequate crm training,T6
+ntsb,contributing factors,faa oversight,faa's failure to ensure hageland's crm training contained required elements,T6
+ntsb,contributing factors,hageland cfit training,hageland's cfit-avoidance ground training not tailored to operations,T6
+ntsb,safety recommendations,faa,makes safety recommendations to faa,T7
+ntsb,safety recommendations,medallion foundation,makes safety recommendations to medallion foundation,T7
+ntsb,safety recommendations,hageland,makes safety recommendations to hageland,T7

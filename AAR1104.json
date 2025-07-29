@@ -1,0 +1,1082 @@
+[
+    {
+        "number": 1,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "time-related",
+            "object": "takeoff",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 2,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "time-related",
+            "object": "cruise phase",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 3,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "time-related",
+            "object": "accident trigger",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 4,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "time-related",
+            "object": "accident occurrence",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 5,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "time-related",
+            "object": "accident rescue",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 6,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "time-related",
+            "object": "post-accident investigation",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 7,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "time-related",
+            "object": "accident outcome analysis",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 8,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "time-related",
+            "object": "recommendations",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 9,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "agusta a-109e helicopter",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 10,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 11,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "spotter",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 12,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "lost hiker",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 13,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "new mexico state police",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 14,
+        "tuple": {
+            "subject": "pre-takeoff preparation",
+            "predicate": "inspection status",
+            "object": "nmsp dispatcher",
+            "event": "",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 15,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "registration",
+            "object": "new mexico department of public safety",
+            "event": "helicopter registered to dps",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 16,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "operation",
+            "object": "new mexico state police",
+            "event": "operated by nmsp on sar mission",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 17,
+        "tuple": {
+            "subject": "lost hiker",
+            "predicate": "emergency call",
+            "object": "911 operator",
+            "event": "hiker called 911 for help",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 18,
+        "tuple": {
+            "subject": "nmsp dispatcher",
+            "predicate": "coordination",
+            "object": "sar command",
+            "event": "dispatcher notified volunteer sar command",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 19,
+        "tuple": {
+            "subject": "district sergeant",
+            "predicate": "decision",
+            "object": "aerial search",
+            "event": "sergeant decided to launch helicopter sar effort",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 20,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "weather assessment",
+            "object": "wind conditions",
+            "event": "pilot initially declined due to high winds",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 21,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "mission acceptance",
+            "object": "sar mission",
+            "event": "pilot accepted mission after wind check",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 22,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "preflight inspection",
+            "object": "agusta a-109e helicopter",
+            "event": "pilot performed preflight inspection",
+            "time": "T-1"
+        }
+    },
+    {
+        "number": 23,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "agusta a-109e helicopter",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 24,
+        "tuple": {
+            "subject": "takeoff",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 25,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "takeoff",
+            "object": "santa fe municipal airport",
+            "event": "helicopter departed saf at 1850",
+            "time": "T0"
+        }
+    },
+    {
+        "number": 26,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 27,
+        "tuple": {
+            "subject": "cruise phase",
+            "predicate": "inspection status",
+            "object": "spotter",
+            "event": "",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 28,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "search operation",
+            "object": "lost hiker",
+            "event": "pilot searched for hiker for over 1 hour",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 29,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "weather report",
+            "object": "wind conditions",
+            "event": "pilot reported dealing with lot of wind",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 30,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "visual contact",
+            "object": "lost hiker",
+            "event": "pilot and spotter made visual contact with hiker",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 31,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "landing decision",
+            "object": "remote landing site",
+            "event": "pilot decided to land on ridge above hiker",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 32,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "landing",
+            "object": "ridge at 11600 feet",
+            "event": "helicopter landed on ridge and shut off engines",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 33,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "rescue operation",
+            "object": "lost hiker",
+            "event": "pilot walked down hill to retrieve hiker",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 34,
+        "tuple": {
+            "subject": "weather conditions",
+            "predicate": "deterioration",
+            "object": "mountain area",
+            "event": "weather deteriorated with sleet and strong winds",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 35,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "return to helicopter",
+            "object": "lost hiker",
+            "event": "pilot carried hiker back to helicopter",
+            "time": "T1"
+        }
+    },
+    {
+        "number": 36,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "weather conditions",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 37,
+        "tuple": {
+            "subject": "accident trigger",
+            "predicate": "inspection status",
+            "object": "agusta a-109e helicopter",
+            "event": "",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 38,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "takeoff",
+            "object": "remote landing site",
+            "event": "helicopter took off from ridge in deteriorating weather",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 39,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "imc encounter",
+            "object": "clouds",
+            "event": "helicopter immediately entered clouds with zero visibility",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 40,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "erratic flight",
+            "object": "mountainous terrain",
+            "event": "helicopter flew erratically and climbed to 12500 feet",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 41,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "loss of control",
+            "object": "agusta a-109e helicopter",
+            "event": "pilot struggled to control helicopter after tail strike",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 42,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "emergency communication",
+            "object": "dispatcher",
+            "event": "pilot reported striking mountainside and going down",
+            "time": "T2"
+        }
+    },
+    {
+        "number": 43,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "agusta a-109e helicopter",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 44,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 45,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "lost hiker",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 46,
+        "tuple": {
+            "subject": "accident occurrence",
+            "predicate": "inspection status",
+            "object": "spotter",
+            "event": "",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 47,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "impact",
+            "object": "terrain",
+            "event": "helicopter impacted terrain at 11970 feet elevation",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 48,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "fragmentation",
+            "object": "steep slope",
+            "event": "helicopter rolled down slope and separated components",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 49,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "ejection",
+            "object": "helicopter wreckage",
+            "event": "pilot was ejected during accident sequence",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 50,
+        "tuple": {
+            "subject": "lost hiker",
+            "predicate": "ejection",
+            "object": "helicopter wreckage",
+            "event": "hiker was ejected during accident sequence",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 51,
+        "tuple": {
+            "subject": "spotter",
+            "predicate": "survival",
+            "object": "helicopter wreckage",
+            "event": "spotter survived and took shelter in wreckage",
+            "time": "T3"
+        }
+    },
+    {
+        "number": 52,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "inspection status",
+            "object": "sar ground teams",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 53,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "inspection status",
+            "object": "spotter",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 54,
+        "tuple": {
+            "subject": "accident rescue",
+            "predicate": "inspection status",
+            "object": "new mexico national guard",
+            "event": "",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 55,
+        "tuple": {
+            "subject": "sar ground teams",
+            "predicate": "search operation",
+            "object": "accident site",
+            "event": "ground teams searched for helicopter wreckage",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 56,
+        "tuple": {
+            "subject": "sar ground teams",
+            "predicate": "rescue",
+            "object": "spotter",
+            "event": "ground teams located spotter and airlifted to hospital",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 57,
+        "tuple": {
+            "subject": "sar ground teams",
+            "predicate": "discovery",
+            "object": "helicopter wreckage",
+            "event": "ground teams located wreckage at 1816",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 58,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "fatal injury",
+            "object": "accident",
+            "event": "pilot fatally injured in crash",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 59,
+        "tuple": {
+            "subject": "lost hiker",
+            "predicate": "fatal injury",
+            "object": "accident",
+            "event": "hiker fatally injured in crash",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 60,
+        "tuple": {
+            "subject": "spotter",
+            "predicate": "serious injury",
+            "object": "accident",
+            "event": "spotter seriously injured but survived",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 61,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "substantial damage",
+            "object": "impact forces",
+            "event": "helicopter substantially damaged by impact",
+            "time": "T4"
+        }
+    },
+    {
+        "number": 62,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "federal aviation administration",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 63,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "agusta a-109e helicopter",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 64,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 65,
+        "tuple": {
+            "subject": "post-accident investigation",
+            "predicate": "inspection status",
+            "object": "investigation department",
+            "event": "",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 66,
+        "tuple": {
+            "subject": "federal aviation administration",
+            "predicate": "oversight",
+            "object": "airworthiness",
+            "event": "faa has authority to oversee certificated aircraft",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 67,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "certification",
+            "object": "airworthiness",
+            "event": "helicopter properly certificated and maintained",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 68,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "medication use",
+            "object": "fluoxetine",
+            "event": "pilot took fluoxetine for depression for 7 years",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 69,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "seat restraint examination",
+            "object": "investigation department",
+            "event": "no evidence of preimpact inadequacies",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 70,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "radar tracking",
+            "object": "erratic flight",
+            "event": "helicopter flew erratically and climbed to 12500 feet",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 71,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "tail rotor damage",
+            "object": "terrain collision",
+            "event": "tail rotor skid tube bent and blades missing",
+            "time": "T5"
+        }
+    },
+    {
+        "number": 72,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "investigation department",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 73,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "pilot",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 74,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "new mexico state police",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 75,
+        "tuple": {
+            "subject": "accident outcome analysis",
+            "predicate": "inspection status",
+            "object": "national transportation safety board",
+            "event": "",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 76,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "geographic disorientation",
+            "object": "terrain collision",
+            "event": "lack of awareness of position in dark imc conditions",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 77,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "spatial disorientation",
+            "object": "terrain collision",
+            "event": "multiple risk factors for spatial disorientation present",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 78,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "poor decision making",
+            "object": "takeoff",
+            "event": "chose to takeoff in adverse weather conditions",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 79,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "fatigue",
+            "object": "decision making",
+            "event": "fatigue distracted from evaluating alternatives",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 80,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "self-induced pressure",
+            "object": "mission completion",
+            "event": "pressure to complete mission affected decisions",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 81,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "situational stress",
+            "object": "decision making",
+            "event": "stress distracted from identifying alternatives",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 82,
+        "tuple": {
+            "subject": "new mexico state police",
+            "predicate": "management culture",
+            "object": "mission execution",
+            "event": "emphasized accepting all missions over safety",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 83,
+        "tuple": {
+            "subject": "new mexico state police",
+            "predicate": "safety deficiencies",
+            "object": "aviation section",
+            "event": "lacked risk assessment and fatigue management",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 84,
+        "tuple": {
+            "subject": "new mexico state police",
+            "predicate": "communication deficiencies",
+            "object": "sar missions",
+            "event": "inadequate procedures for airborne-ground communication",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 85,
+        "tuple": {
+            "subject": "pilot",
+            "predicate": "instrument rating",
+            "object": "helicopter operations",
+            "event": "lacked helicopter instrument rating",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 86,
+        "tuple": {
+            "subject": "agusta a-109e helicopter",
+            "predicate": "emergency locator",
+            "object": "406-mhz elt",
+            "event": "elt signals focused searchers on accident site",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 87,
+        "tuple": {
+            "subject": "accident root cause",
+            "predicate": "pilot decision",
+            "object": "takeoff",
+            "event": "pilot decided to takeoff in dark windy imc conditions",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 88,
+        "tuple": {
+            "subject": "organizational culture",
+            "predicate": "mission priority",
+            "object": "aviation safety",
+            "event": "prioritized mission execution over safety",
+            "time": "T6"
+        }
+    },
+    {
+        "number": 89,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "national transportation safety board",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 90,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "governor of new mexico",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 91,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "airborne law enforcement association",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 92,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "national association of state aviation officials",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 93,
+        "tuple": {
+            "subject": "recommendations",
+            "predicate": "inspection status",
+            "object": "international association of chiefs of police",
+            "event": "",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 94,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "governor of new mexico",
+            "event": "require nmsp to conform to industry standards",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 95,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "governor of new mexico",
+            "event": "develop comprehensive fatigue management program",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 96,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "governor of new mexico",
+            "event": "revise sar policies for direct communication",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 97,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "airborne law enforcement association",
+            "event": "require imc training for pilots",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 98,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "airborne law enforcement association",
+            "event": "encourage 406-mhz elt installation",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 99,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "airborne law enforcement association",
+            "event": "encourage flight-tracking equipment",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 100,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "national association of state aviation officials",
+            "event": "encourage policy review and risk assessment",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 101,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "safety recommendation",
+            "object": "international association of chiefs of police",
+            "event": "encourage policy review and risk assessment",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 102,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "probable cause",
+            "object": "accident",
+            "event": "pilot decision to takeoff in adverse conditions",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 103,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "contributing factors",
+            "object": "organizational culture",
+            "event": "culture prioritized mission over safety",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 104,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "contributing factors",
+            "object": "pilot factors",
+            "event": "fatigue pressure and stress contributed",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 105,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "contributing factors",
+            "object": "safety policies",
+            "event": "deficiencies in safety-related policies",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 106,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "contributing factors",
+            "object": "communication procedures",
+            "event": "inadequate sar communication procedures",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 107,
+        "tuple": {
+            "subject": "national transportation safety board",
+            "predicate": "recommendation adoption",
+            "object": "safety improvements",
+            "event": "adopted recommendations on may 24 2011",
+            "time": "T7"
+        }
+    },
+    {
+        "number": 108,
+        "tuple": {
+            "subject": "safety recommendations",
+            "predicate": "focus areas",
+            "object": "aviation safety",
+            "event": "focus on fatigue management communication and equipment",
+            "time": "T7"
+        }
+    }
+]

@@ -1,0 +1,109 @@
+subject,predicate,object,event,time
+pre-takeoff preparation,time-related,takeoff,,T-1
+takeoff,time-related,cruise phase,,T0
+cruise phase,time-related,accident trigger,,T1
+accident trigger,time-related,accident occurrence,,T2
+accident occurrence,time-related,accident rescue,,T3
+accident rescue,time-related,post-accident investigation,,T4
+post-accident investigation,time-related,accident outcome analysis,,T5
+accident outcome analysis,time-related,recommendations,,T6
+pre-takeoff preparation,inspection status,agusta a-109e helicopter,,T-1
+pre-takeoff preparation,inspection status,pilot,,T-1
+pre-takeoff preparation,inspection status,spotter,,T-1
+pre-takeoff preparation,inspection status,lost hiker,,T-1
+pre-takeoff preparation,inspection status,new mexico state police,,T-1
+pre-takeoff preparation,inspection status,nmsp dispatcher,,T-1
+agusta a-109e helicopter,registration,new mexico department of public safety,helicopter registered to dps,T-1
+agusta a-109e helicopter,operation,new mexico state police,operated by nmsp on sar mission,T-1
+lost hiker,emergency call,911 operator,hiker called 911 for help,T-1
+nmsp dispatcher,coordination,sar command,dispatcher notified volunteer sar command,T-1
+district sergeant,decision,aerial search,sergeant decided to launch helicopter sar effort,T-1
+pilot,weather assessment,wind conditions,pilot initially declined due to high winds,T-1
+pilot,mission acceptance,sar mission,pilot accepted mission after wind check,T-1
+pilot,preflight inspection,agusta a-109e helicopter,pilot performed preflight inspection,T-1
+takeoff,inspection status,agusta a-109e helicopter,,T0
+takeoff,inspection status,pilot,,T0
+agusta a-109e helicopter,takeoff,santa fe municipal airport,helicopter departed saf at 1850,T0
+cruise phase,inspection status,pilot,,T1
+cruise phase,inspection status,spotter,,T1
+pilot,search operation,lost hiker,pilot searched for hiker for over 1 hour,T1
+pilot,weather report,wind conditions,pilot reported dealing with lot of wind,T1
+pilot,visual contact,lost hiker,pilot and spotter made visual contact with hiker,T1
+pilot,landing decision,remote landing site,pilot decided to land on ridge above hiker,T1
+agusta a-109e helicopter,landing,ridge at 11600 feet,helicopter landed on ridge and shut off engines,T1
+pilot,rescue operation,lost hiker,pilot walked down hill to retrieve hiker,T1
+weather conditions,deterioration,mountain area,weather deteriorated with sleet and strong winds,T1
+pilot,return to helicopter,lost hiker,pilot carried hiker back to helicopter,T1
+accident trigger,inspection status,weather conditions,,T2
+accident trigger,inspection status,agusta a-109e helicopter,,T2
+agusta a-109e helicopter,takeoff,remote landing site,helicopter took off from ridge in deteriorating weather,T2
+agusta a-109e helicopter,imc encounter,clouds,helicopter immediately entered clouds with zero visibility,T2
+agusta a-109e helicopter,erratic flight,mountainous terrain,helicopter flew erratically and climbed to 12500 feet,T2
+pilot,loss of control,agusta a-109e helicopter,pilot struggled to control helicopter after tail strike,T2
+pilot,emergency communication,dispatcher,pilot reported striking mountainside and going down,T2
+accident occurrence,inspection status,agusta a-109e helicopter,,T3
+accident occurrence,inspection status,pilot,,T3
+accident occurrence,inspection status,lost hiker,,T3
+accident occurrence,inspection status,spotter,,T3
+agusta a-109e helicopter,impact,terrain,helicopter impacted terrain at 11970 feet elevation,T3
+agusta a-109e helicopter,fragmentation,steep slope,helicopter rolled down slope and separated components,T3
+pilot,ejection,helicopter wreckage,pilot was ejected during accident sequence,T3
+lost hiker,ejection,helicopter wreckage,hiker was ejected during accident sequence,T3
+spotter,survival,helicopter wreckage,spotter survived and took shelter in wreckage,T3
+accident rescue,inspection status,sar ground teams,,T4
+accident rescue,inspection status,spotter,,T4
+accident rescue,inspection status,new mexico national guard,,T4
+sar ground teams,search operation,accident site,ground teams searched for helicopter wreckage,T4
+sar ground teams,rescue,spotter,ground teams located spotter and airlifted to hospital,T4
+sar ground teams,discovery,helicopter wreckage,ground teams located wreckage at 1816,T4
+pilot,fatal injury,accident,pilot fatally injured in crash,T4
+lost hiker,fatal injury,accident,hiker fatally injured in crash,T4
+spotter,serious injury,accident,spotter seriously injured but survived,T4
+agusta a-109e helicopter,substantial damage,impact forces,helicopter substantially damaged by impact,T4
+post-accident investigation,inspection status,federal aviation administration,,T5
+post-accident investigation,inspection status,agusta a-109e helicopter,,T5
+post-accident investigation,inspection status,pilot,,T5
+post-accident investigation,inspection status,investigation department,,T5
+federal aviation administration,oversight,airworthiness,faa has authority to oversee certificated aircraft,T5
+agusta a-109e helicopter,certification,airworthiness,helicopter properly certificated and maintained,T5
+pilot,medication use,fluoxetine,pilot took fluoxetine for depression for 7 years,T5
+agusta a-109e helicopter,seat restraint examination,investigation department,no evidence of preimpact inadequacies,T5
+agusta a-109e helicopter,radar tracking,erratic flight,helicopter flew erratically and climbed to 12500 feet,T5
+agusta a-109e helicopter,tail rotor damage,terrain collision,tail rotor skid tube bent and blades missing,T5
+accident outcome analysis,inspection status,investigation department,,T6
+accident outcome analysis,inspection status,pilot,,T6
+accident outcome analysis,inspection status,new mexico state police,,T6
+accident outcome analysis,inspection status,national transportation safety board,,T6
+pilot,geographic disorientation,terrain collision,lack of awareness of position in dark imc conditions,T6
+pilot,spatial disorientation,terrain collision,multiple risk factors for spatial disorientation present,T6
+pilot,poor decision making,takeoff,chose to takeoff in adverse weather conditions,T6
+pilot,fatigue,decision making,fatigue distracted from evaluating alternatives,T6
+pilot,self-induced pressure,mission completion,pressure to complete mission affected decisions,T6
+pilot,situational stress,decision making,stress distracted from identifying alternatives,T6
+new mexico state police,management culture,mission execution,emphasized accepting all missions over safety,T6
+new mexico state police,safety deficiencies,aviation section,lacked risk assessment and fatigue management,T6
+new mexico state police,communication deficiencies,sar missions,inadequate procedures for airborne-ground communication,T6
+pilot,instrument rating,helicopter operations,lacked helicopter instrument rating,T6
+agusta a-109e helicopter,emergency locator,406-mhz elt,elt signals focused searchers on accident site,T6
+accident root cause,pilot decision,takeoff,pilot decided to takeoff in dark windy imc conditions,T6
+organizational culture,mission priority,aviation safety,prioritized mission execution over safety,T6
+recommendations,inspection status,national transportation safety board,,T7
+recommendations,inspection status,governor of new mexico,,T7
+recommendations,inspection status,airborne law enforcement association,,T7
+recommendations,inspection status,national association of state aviation officials,,T7
+recommendations,inspection status,international association of chiefs of police,,T7
+national transportation safety board,safety recommendation,governor of new mexico,require nmsp to conform to industry standards,T7
+national transportation safety board,safety recommendation,governor of new mexico,develop comprehensive fatigue management program,T7
+national transportation safety board,safety recommendation,governor of new mexico,revise sar policies for direct communication,T7
+national transportation safety board,safety recommendation,airborne law enforcement association,require imc training for pilots,T7
+national transportation safety board,safety recommendation,airborne law enforcement association,encourage 406-mhz elt installation,T7
+national transportation safety board,safety recommendation,airborne law enforcement association,encourage flight-tracking equipment,T7
+national transportation safety board,safety recommendation,national association of state aviation officials,encourage policy review and risk assessment,T7
+national transportation safety board,safety recommendation,international association of chiefs of police,encourage policy review and risk assessment,T7
+national transportation safety board,probable cause,accident,pilot decision to takeoff in adverse conditions,T7
+national transportation safety board,contributing factors,organizational culture,culture prioritized mission over safety,T7
+national transportation safety board,contributing factors,pilot factors,fatigue pressure and stress contributed,T7
+national transportation safety board,contributing factors,safety policies,deficiencies in safety-related policies,T7
+national transportation safety board,contributing factors,communication procedures,inadequate sar communication procedures,T7
+national transportation safety board,recommendation adoption,safety improvements,adopted recommendations on may 24 2011,T7
+safety recommendations,focus areas,aviation safety,focus on fatigue management communication and equipment,T7

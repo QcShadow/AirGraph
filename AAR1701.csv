@@ -1,0 +1,100 @@
+subject,predicate,object,event,time
+pre-takeoff preparation,time-related,takeoff,,T-1
+takeoff,time-related,cruise phase,,T0
+cruise phase,time-related,accident trigger,,T1
+accident trigger,time-related,accident occurrence,,T2
+accident occurrence,time-related,accident rescue,,T3
+accident rescue,time-related,post-accident investigation,,T4
+post-accident investigation,time-related,accident outcome analysis,,T5
+accident outcome analysis,time-related,recommendations,,T6
+pre-takeoff preparation,inspection status,airbus helicopters as350 b3e,,T-1
+pre-takeoff preparation,inspection status,pilot,,T-1
+pre-takeoff preparation,inspection status,flight nurses,,T-1
+airbus helicopters as350 b3e,registration,air methods corporation,helicopter registered to air methods,T-1
+airbus helicopters as350 b3e,operation,air methods corporation,helicopter operated by air methods,T-1
+airbus helicopters as350 b3e,dual hydraulic system,main rotor and tail rotor controls,"dual hydraulic system provides redundancy for main rotor, single for tail rotor",T-1
+airbus helicopters as350 b3e,certification,faa,helicopter properly certificated and maintained,T-1
+pilot,certification,faa,pilot properly certificated and qualified,T-1
+pilot,physical condition,fatigue and medication,pilot fatigue and medication not factors,T-1
+pilot,flight release,operations control center,pilot received flight release after verification,T-1
+pilot,preflight inspection,airbus helicopters as350 b3e,pilot performed preflight inspection,T-1
+pilot,preflight hydraulic check,yaw load compensator,pilot required to perform preflight hydraulic check,T-1
+takeoff,inspection status,airbus helicopters as350 b3e,,T0
+takeoff,inspection status,pilot,,T0
+airbus helicopters as350 b3e,takeoff,summit medical center heliport,helicopter lifted off from helipad,T0
+pilot,failure to reset,yaw servo hydraulic switch,pilot did not return yaw servo hydraulic switch to on position before takeoff,T0
+pilot,failure to perform,hover check,pilot did not perform hover check before takeoff,T0
+cruise phase,inspection status,pilot,,T1
+cruise phase,inspection status,flight nurses,,T1
+pilot,control flight status,airbus helicopters as350 b3e,helicopter began counterclockwise turn and spinning,T1
+pilot,loss of control,airbus helicopters as350 b3e,lack of hydraulic boost to pedals led to loss of tail rotor control and left yaw,T1
+pilot,continued takeoff,airbus helicopters as350 b3e,pilot continued takeoff despite increased pedal loads,T1
+accident trigger,inspection status,tail rotor control,,T2
+accident trigger,inspection status,hydraulic boost to pedals,,T2
+airbus helicopters as350 b3e,loss of tail rotor control,hydraulic boost to pedals,lack of hydraulic boost led to loss of tail rotor control,T2
+accident occurrence,inspection status,airbus helicopters as350 b3e,,T3
+accident occurrence,inspection status,pilot,,T3
+accident occurrence,inspection status,flight nurses,,T3
+accident occurrence,inspection status,fuel system,,T3
+airbus helicopters as350 b3e,impact,parking lot and rv,"helicopter impacted rv and ground, postcrash fire ensued",T3
+airbus helicopters as350 b3e,postcrash fire,wreckage,"fuel ignited, postcrash fire consumed helicopter",T3
+pilot,fatal injury,accident,pilot fatally injured by impact and fire,T3
+flight nurses,serious injury,accident,"flight nurses seriously injured, one with severe burns",T3
+fuel system,non-crash resistant,thermal injuries,non-crash resistant fuel system increased risk of thermal injuries,T3
+flight nurse,ejection,seat,flight nurse in left aft seat ejected with seat during accident,T3
+accident rescue,inspection status,bystander,,T4
+bystander,rescue,pilot,bystander pulled pilot from cockpit and extinguished fire,T4
+post-accident investigation,inspection status,ntsb,,T5
+post-accident investigation,inspection status,investigation department,,T5
+accident investigation,inspection status,ntsb board,,T5
+ntsb,finding,crashworthiness standards,most helicopters do not include improved crashworthiness standards,T5
+ntsb,finding,flight recorder system,data could have been recovered from compliant flight recorder system,T5
+ntsb,finding,lack of cockpit alert,no cockpit alert for loss of hydraulic boost to pedals,T5
+ntsb,finding,tail rotor control design,need for changes to ensure pedal control hydraulic assistance and mitigate pilot error,T5
+ntsb,finding,crashworthiness information,lack of information for operators on crashworthiness equipment,T5
+ntsb,finding,crash-resistant fuel system,need for crash-resistant fuel systems for helicopters not covered by 1994 requirements,T5
+ntsb,finding,flight recorder system,lack of requirements for crash-resistant flight recorders on small aircraft,T5
+ntsb board,analysis,pilot error,pilot did not return yaw servo hydraulic switch to on position,T5
+ntsb board,analysis,underlying factors,"investigation focused on underlying factors, not just pilot error",T5
+ntsb board,analysis,airbus helicopters procedure,preflight test procedure could set a trap if last step omitted,T5
+airbus helicopters,system design,hydraulic alerting,lack of salient alerting for hydraulic pressure loss after preflight check,T5
+ntsb board,conclusion,system design factors,system design set the stage for pilot error,T5
+ntsb board,analysis,investigation challenges,lack of crash resistant recorders and access to evidence hinder investigations,T5
+ntsb board,analysis,witness statements,witness statements may be affected by trauma or bias,T5
+ntsb board,analysis,design integrity,design integrity involves hardware and operating procedures,T5
+accident outcome analysis,inspection status,ntsb,,T6
+ntsb,conclusion,loss of hydraulic boost to pedals,lack of hydraulic boost most likely caused loss of tail rotor control,T6
+ntsb,conclusion,failure to perform hover check,hover check would have revealed pedal control anomaly,T6
+ntsb,conclusion,crashworthiness standards,"impact forces were survivable, but postcrash fire caused fatal injuries",T6
+ntsb board,analysis,probable cause,probable cause is accumulation of facts and scientific reasoning,T6
+ntsb board,conclusion,operator error and design flaw,accident caused by combination of operator error and design flaw,T6
+ntsb board,conclusion,post-crash fire,pilot's injuries may have been survivable but for post-crash fire,T6
+ntsb,conclusion,probable cause,preflight hydraulic check and lack of alerting led to loss of control,T6
+ntsb,conclusion,contributing factors,failure to perform hover check and non-crash resistant fuel system increased severity,T6
+recommendations,inspection status,faa,,T7
+recommendations,inspection status,airbus helicopters,,T7
+recommendations,inspection status,easa,,T7
+recommendations,inspection status,association of critical care transport,,T7
+recommendations,inspection status,association of air medical services,,T7
+recommendations,inspection status,air medical operators association,,T7
+faa,requirement,airbus helicopters as350 series,require visual and aural alert for loss of hydraulic boost to pedals,T7
+airbus helicopters,system improvement,dual hydraulic system,implement changes to ensure pedal control hydraulic assistance and mitigate pilot error,T7
+easa,requirement,airbus helicopters as350 series,require operators to incorporate changes to dual hydraulic system,T7
+association of critical care transport,guideline development,crashworthiness equipment,develop guidelines for crash-resistant fuel system and energy-absorbing seats,T7
+association of air medical services,collaboration,association of critical care transport,work together to develop crashworthiness guidelines,T7
+faa,approval,crash-resistant fuel system retrofit kit,prioritize approval for retrofit kit for as350 b3e and variants,T7
+faa,information bulletin,crash-resistant fuel system retrofit kit,issue bulletin to inform owners and urge installation,T7
+faa,information bulletin,fuel system crashworthiness modifications,periodically update and urge installation of modifications,T7
+easa,approval,crash-resistant fuel system retrofit kit,prioritize approval for retrofit kit for as350 b3e and variants,T7
+faa,requirement,crash-resistant flight recorder system,require installation on all newly manufactured turbine-powered aircraft not equipped with fdr/cvr,T7
+faa,requirement,crash-resistant flight recorder system retrofit,require retrofit for all existing turbine-powered aircraft not equipped with fdr/cvr,T7
+crash-resistant flight recorder system,specification,technical standard order c197,"system should record cockpit audio, images, and parametric data",T7
+faa,safety recommendation,crash-resistant fuel system,require retrofit and installation of crash-resistant fuel systems,T7
+faa,safety recommendation,hydraulic system alert,require visual and aural alert for loss of hydraulic boost to pedals,T7
+faa,safety recommendation,flight recorder system,require installation of compliant flight recorder systems,T7
+ntsb board,recommendation,system improvement,recommendations aimed at correcting underlying factors,T7
+ntsb board,recommendation,hardware design improvement,incorporate visible and audible alert for hydraulic pressure loss,T7
+ntsb board,recommendation,manufacturer safety communication,manufacturers should convey safety implications and support corrective action,T7
+ntsb board,recommendation,crash-resistant fuel system retrofit,support retrofitting helicopters to prevent post-crash fire injuries,T7
+ntsb board,recommendation,adherence to procedures,emphasize importance of preflight checklists and hover checks,T7
+ntsb board,recommendation,technology and training,support use of technology and best practices to assist operators,T7
